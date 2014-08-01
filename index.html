@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Taxy My Price</title>
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+      <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+      <link rel="stylesheet" href="css/uikit.almost-flat.min.css">
+      <link rel="stylesheet" href="css/addons/uikit.almost-flat.addons.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="js/uikit.min.js"></script>
+      <script src="js/addons/datepicker.min.js"></script>
+      <script src="js/addons/timepicker.min.js"></script>
+
+      <!-- Pixel Perfect -->
+      <!-- <script src="http://jek-fdrv.com/pixp/pixp.js" type="text/javascript"></script> -->
+      <!-- End Pixel Perfect -->
+
+    </head>
+
+    <body>
+
+      <header>
+        <div class="uk-container uk-container-center">
+          <nav class="uk-navbar">
+            <a href="layouts_frontpage.html" class="uk-navbar-brand uk-hidden-small">Brand</a>
+            <ul class="uk-navbar-nav uk-hidden-small">
+              <li class="uk-active">
+                <a href="layouts_frontpage.html">About</a>
+              </li>
+              <li>
+                <a href="layouts_portfolio.html">Help</a>
+              </li>
+              <li>
+                <a href="layouts_blog.html">Profit</a>
+              </li>
+            </ul>
+            <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+            <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
+          </nav>
+        </div><!-- end uk-container -->
+
+          <div class="header-bottom">
+            <div class="uk-container uk-container-center">
+              <div class="uk-grid" data-uk-grid-margin>
+                <div class="uk-width-medium-9-10">
+                  <ul class="uk-breadcrumb">
+                    <li><a href="#">Главная</a></li>
+                    <li class="uk-active"><span>Личный кабинет</span></li>
+                  </ul>
+                </div>
+                <div class="uk-width-medium-1-10 uk-form-select uk-float-right" data-uk-form-select>
+                  <span>ENG<i class="uk-icon-sort-down"></i></span>
+                  <select>
+                    <option value="1">ENG</option>
+                    <option value="2">RU</option>
+                  </select>
+                </div>
+              </div><!-- end header-bottom --></div>
+          </div>
+
+      </header>
+
+
+
+      <div class="uk-container uk-container-center">
+        <div class="wrap" role="document">
+
+
+
+          <div class="uk-grid banner" data-uk-grid-margin>
+            <div class="uk-width-medium-1-1">
+                <a href=""><img src="img/banner.jpg" alt=""></a>
+            </div>
+          </div><!-- end banner -->
+
+          <div class="uk-grid ride-block uk-margin-top">
+
+            <div class="uk-width-medium-1-1 ride-block-top uk-text-center uk-margin-small">
+              <div class="uk-grid uk-grid-small uk-text-bold uk-text-large">
+                <div class="uk-width-1-2">
+                    <div class="book-rite uk-panel uk-panel-space">
+                      <a href="#">Book a ride at your price</a>
+                    </div>
+                </div>
+                <div class="uk-width-1-2">
+                    <div class="take-best uk-panel uk-panel-space">
+                      <a href="#">Lorem ipsum dolor sit amet</a>
+                    </div>
+                </div>
+              </div>
+            </div><!-- end ride-block-top -->
+
+            <div class="uk-width-medium-1-1 tabs uk-margin-small">
+              <ul class="uk-grid uk-text-center uk-text-bold uk-margin-remove" data-uk-switcher="{connect:'#tabs-content'}">
+                <div class="uk-width-1-3">
+                    <a href=""><div class="triangle"><span class="uk-margin-right uk-text-bold uk-text-large">1</span>Lorem ipsum dolor sit amet</div></a>
+                </div>
+                <div class="uk-width-1-3">
+                    <a href=""><div class="triangle"><span class="uk-margin-right uk-text-bold uk-text-large">2</span>Lorem ipsum dolor sit amet</div></a>
+                </div>
+                <div class="uk-width-1-3">
+                    <a href=""><div class="triangle"><span class="uk-margin-right uk-text-bold uk-text-large">3</span>Lorem ipsum dolor sit amet</div></a>
+                </div>
+              </ul>
+            </div><!-- end tabs -->
+
+            <div class="uk-width-medium-1-1 ride-block-main">
+              <div class="uk-grid">
+                <div class="uk-width-1-2 uk-margin-large-top">
+                  <ul id="tabs-content" class="uk-switcher">
+                    <li>
+                      <form class="uk-form">
+                        <label>From:<input type="text" name="" value="" placeholder="Lorem ipsum dolor."></label>
+                        <label>To:<input type="text" name="" value="" placeholder="Lorem ipsum dolor."></label>
+                      </form>
+                      <div class="uk-width-medium-1-2">
+                        <div class="uk-panel uk-panel-box uk-panel-teaser">Lorem ipsum dolor.</div>
+                      </div>
+                      <hr>
+                      <div class="time-choice">
+                        <div class="pickup-top uk-grid">
+                          <div class="uk-width-1-3">Pickup</div>
+                          <div class="uk-width-2-3">
+                            <form class="uk-form">
+                              <div class="uk-grid">
+                                <input class="uk-width-1-3 uk-text-center" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="mm/dd/yy">
+                                <input class="uk-text-center uk-width-1-6" type="text" placeholder="11">
+                                <input class="uk-text-center uk-width-1-6" type="text" placeholder="00">
+                            </div>
+                            <label><input type="checkbox">Lorem ipsum dolor sit.</label>
+                          </form>
+                        </div>
+                        <div class="pickup-bottom uk-grid">
+                          <div class="uk-width-1-3">Return</div>
+                          <div class="uk-width-2-3">
+                            <form class="uk-form">
+                              <div class="uk-grid data-uk-grid-margin">
+                                <input class="uk-width-1-3 uk-text-center" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="mm/dd/yy">
+                                <input class="uk-text-center uk-width-1-6" type="text" placeholder="11">
+                                <input class="uk-text-center uk-width-1-6" type="text" placeholder="00">
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </li><!-- first-tab-content -->
+                    <li>
+                      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, veniam, eveniet deserunt eum amet dolorem laudantium eligendi nulla asperiores repudiandae blanditiis. Neque ea mollitia minima ut commodi ipsa doloremque iste.</div>
+                    </li>
+                    <li>
+                      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatibus atque, deserunt, praesentium sunt omnis eius tempore vero obcaecati culpa odit tenetur consectetur dignissimos! Perferendis sunt unde explicabo repellat assumenda!</div>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="uk-width-1-2 ride-block-map">
+                  <img src="img/map.jpg" alt="">
+                </div>
+
+              </div>
+            </div><!-- end ride-block-main -->
+
+          </div><!-- end ride-block -->
+<!--  -->
+          <hr class="uk-grid-divider">
+
+          <div class="uk-grid" data-uk-grid-margin>
+              <div class="uk-width-medium-1-3">
+                  <div class="uk-grid">
+                      <div class="uk-width-1-6">
+                          <i class="uk-icon-dashboard uk-icon-large uk-text-primary"></i>
+                      </div>
+                      <div class="uk-width-5-6">
+                          <h2 class="uk-h3">Sample Heading</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="uk-width-medium-1-3">
+                  <div class="uk-grid">
+                      <div class="uk-width-1-6">
+                          <i class="uk-icon-comments uk-icon-large uk-text-primary"></i>
+                      </div>
+                      <div class="uk-width-5-6">
+                          <h2 class="uk-h3">Sample Heading</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="uk-width-medium-1-3">
+                  <div class="uk-grid">
+                      <div class="uk-width-1-6">
+                          <i class="uk-icon-briefcase uk-icon-large uk-text-primary"></i>
+                      </div>
+                      <div class="uk-width-5-6">
+                          <h2 class="uk-h3">Sample Heading</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <hr class="uk-grid-divider">
+
+        </div><!-- end wrap -->
+
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
