@@ -1,10 +1,30 @@
 /*! Theme CSS */
 
 /* ========================================================================
-    basr
+    Base
  ========================================================================== */
+body {
+  background: #fff url(../img/page-bg.png);
+}
+
 a:hover {
   text-decoration: none;
+}
+
+.icon-blue {
+  color: #4F87DD;
+}
+
+.icon-black {
+  color: #000;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.uk-icon-mini {
+  font-size: 75%;
 }
 /* ========================================================================
     Header
@@ -17,6 +37,7 @@ header .uk-navbar{
   background: url(../img/header-bg.png) 0 0 no-repeat;
   border: none;
   border-radius: 0;
+
 }
 
 .uk-navbar-nav > li.uk-active > a {
@@ -29,12 +50,16 @@ header .uk-navbar{
 }
 
 div.uk-container {
-    padding: 0 99px;
+  padding: 0 100px;
 }
 
 /* ========================================================================
     Main
  ========================================================================== */
+
+.ride-block {
+  background: #fff;
+}
 
 .book-rite {
   background: #fff url(../img/book-rite.png) 0 0 no-repeat;
@@ -63,6 +88,8 @@ div.uk-container {
 .tabs .triangle span {
   background: #F84E62;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -110,3 +137,36 @@ div.uk-container {
   color: #fff;
 }
 
+/* ========================================================================
+    Table
+ ========================================================================== */
+
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-srf5{font-weight:bold;background-color:#528ed3;color:#ffffff;text-align:center}
+.tg .tg-dntg{color:#3c3d45;text-align:center}
+.tg .tg-7v46{font-weight:bold;color:#528ed3;text-align:center}
+.tg .tg-lltv{font-weight:bold;color:#3c3d45;text-align:center}
+
+.tg td>span {
+  background-color: #4F87DD;
+  color: #fff;
+  display: inline-block;
+  width: 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* ========================================================================
+    Footer
+ ========================================================================== */
+
+footer {
+  background-color: #508BD0;
+}
+
+footer nav{
+  background: #fff url(../img/footer-bg.png) 0 0 no-repeat;
+}
