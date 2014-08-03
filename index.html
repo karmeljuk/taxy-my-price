@@ -37,16 +37,18 @@
 
       <header>
         <div class="uk-container uk-container-center">
-          <nav class="uk-navbar">
-            <a href="layouts_frontpage.html" class="uk-navbar-brand uk-hidden-small"><h1 class="hidden">Taxi My Drive</h1></a>
-            <ul class="uk-navbar-nav uk-hidden-small">
+          <nav class="uk-navbar uk-grid">
+            <div class="uk-width-large-2-10 uk-hidden-medium uk-hidden-small uk-navbar-brand">
+              <a href="#" class=""><h1 class="hidden">Taxi My Drive</h1></a>
+            </div>
+            <ul class="uk-navbar-nav uk-hidden-small uk-width-large-8-10 uk-width-medium-1-1">
               <li class="uk-active about">
                 <a href="layouts_frontpage.html">About</a>
               </li>
               <li class="help">
                 <a href="layouts_portfolio.html">Help</a>
               </li>
-              <li>
+              <li class="uk-margin-right">
                 <a href="">
                   <i class="ico-sprite ico-user"></i>
                   <span class="uk-margin-small-left uk-margin-small-right">Profit</span>
@@ -54,30 +56,27 @@
                 </a>
               </li>
 
-              <li class="book uk-margin-large-left bg-blue">
-                <a href="#" title="">BOOK</a>
-                <i class="uk-icon-medium ico-sprite ico-fist"></i>
+              <li class="book bg-blue">
+                <a href="" title="">BOOK</a>
+                <i class="ico-sprite ico-fist"></i>
               </li>
               <li class="store bg-red">
-                <a href="#" title="">STORE</a>
+                <a href="" title="">STORE</a>
               </li>
-              <li class="uk-float-right">
-                <div class="uk-button-group">
-                  <div data-uk-dropdown="{mode:'click'}">
-                    <button class="uk-button">Hello, Boris<i class="uk-icon-caret-down uk-margin-small-left"></i></a></button>
-                    <div class="uk-dropdown uk-dropdown-small">
-                      <ul class="uk-nav uk-nav-dropdown">
-                        <li><a href="#">Lorem ipsum.</a></li>
-                        <li><a href="#">Lorem ipsum.</a></li>
-                        <li><a href="#">Lorem ipsum.</a></li
-                      </ul>
-                    </div>
-                  </div>
+              <li class="user-menu" data-uk-dropdown="{mode:'click'}">
+                <a class="text-red" href="#">Hello, Boris<i class="uk-icon-caret-down uk-margin-small-left"></i></a>
+                <div class="uk-dropdown uk-dropdown-small">
+                  <ul class="uk-nav uk-nav-dropdown">
+                    <li><a href="#">Option 1</a></li>
+                    <li><a href="#">Option 2</a></li>
+                    <li><a href="#">Option 3</a></li>
+                    <li><a href="#">Option 4</a></li>
+                  </ul>
                 </div>
               </li>
             </ul>
             <a href="#offcanvas-header" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-            <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
+            <div class="uk-navbar-brand uk-navbar-small uk-visible-small"><a href="#"></a></div>
 
 
           </nav>
@@ -136,13 +135,28 @@
                 <div class="uk-width-medium-1-1 tabs uk-margin-small">
                   <ul id="tabs" class="uk-grid uk-text-center uk-text-bold uk-margin-remove" data-uk-switcher="{connect:'#tabs-content'}">
                     <div class="uk-width-1-3 first-tab">
-                        <a href=""><div class="triangle"><span class="uk-margin-right uk-text-bold uk-text-large">1</span>Select route</div></a>
+                        <a href="">
+                          <div class="triangle">
+                            <i class="uk-icon-check-circle icon-white uk-icon-large uk-margin-right"></i>
+                            <span class="uk-margin-right uk-text-bold uk-text-large">1</span>Select route
+                          </div>
+                        </a>
                     </div>
                     <div class="uk-width-1-3 second-tab">
-                        <a href=""><div class="triangle"><span class="uk-margin-right uk-text-bold uk-text-large">2</span>Select the type of vehicle</div></a>
+                        <a href="">
+                          <div class="triangle">
+                            <i class="uk-icon-check-circle icon-white uk-icon-large uk-margin-right"></i>
+                            <span class="uk-margin-right uk-text-bold uk-text-large">2</span>Select the type of vehicle
+                          </div>
+                        </a>
                     </div>
                     <div class="uk-width-1-3 third-tab">
-                        <a href=""><div class="triangle"><span class="uk-margin-right uk-text-bold uk-text-large">3</span>Contacts</div></a>
+                        <a href="">
+                          <div class="triangle">
+                            <i class="uk-icon-check-circle icon-white uk-icon-large uk-margin-right"></i>
+                            <span class="uk-margin-right uk-text-bold uk-text-large">3</span>Contacts
+                          </div>
+                        </a>
                     </div>
                   </ul>
                 </div><!-- end tabs -->
@@ -150,18 +164,18 @@
                 <div class="uk-width-medium-1-1 ride-block-main">
                   <div class="uk-grid  uk-grid-small">
                     <div class="uk-width-medium-1-2 uk-width-small-1-1  uk-margin-top">
-                      <div class="uk-panel">
+                      <div class="uk-panel uk-margin-small-top">
                         <ul id="tabs-content" class="uk-switcher">
                           <li class="first-tab-content">
                             <form class="uk-form">
                               <div class="uk-grid">
-                                <label for="from" class="uk-width-medium-1-3 uk-margin-small-top uk-text-bold uk-text-large text-red"><i class="uk-icon-medium ico-sprite ico-punct-a"></i>From:</label>
+                                <label for="from" class="uk-width-medium-1-3 uk-margin-small-top uk-text-bold uk-text-large text-red"><i class="ico-sprite ico-punct-a uk-margin-small-right"></i>From:</label>
                                 <input id="from" class="uk-form-width-medium uk-float-right uk-margin-small" type="text" name="" value="" placeholder="Address, City or Zip">
-                                <label for="to" class="uk-width-medium-1-3 uk-margin-top uk-text-bold uk-text-large text-red"><i class="uk-icon-medium ico-sprite ico-punct-b"></i>To:</label>
+                                <label for="to" class="uk-width-medium-1-3 uk-margin-top uk-text-bold uk-text-large text-red"><i class="ico-sprite ico-punct-b uk-margin-small-right"></i>To:</label>
                                 <input id="to" class="uk-form-width-medium uk-float-right uk-margin-small" type="text" name="" value="" placeholder="Address, City or Zip">
                               </div>
                             </form>
-                            <a class="uk-text-center uk-text-middle uk-text-bold uk-width-medium-1-1 uk-button uk-margin" href=""><i class="uk-icon-map-marker icon-red uk-icon-medium"></i> Another destination</a>
+                            <a class="uk-text-center uk-text-middle uk-text-bold uk-width-medium-1-1 uk-button uk-margin" href=""><i class="uk-icon-map-marker icon-red uk-icon-medium uk-margin-small-right"></i> Another destination</a>
 
                             <hr class="bg-red">
 
@@ -174,8 +188,8 @@
                                           <input class="uk-form-width-mini uk-width-1-6" type="text" placeholder="11"data-uk-timepicker >
                                           <input class="uk-form-width-mini uk-width-1-6" type="text" placeholder="00"data-uk-timepicker >
 
-                                          <div class="">
-                                            <label class="uk-width-medium-1-1"><input type="checkbox">Make this a return trip</label>
+                                          <div class="uk-margin-small-top">
+                                            <label class="uk-width-medium-1-1"><input type="checkbox">&nbsp; Make this a return trip</label>
                                           </div>
                                   </div>
                                 </div>
@@ -189,9 +203,9 @@
                                       <input class="uk-text-center uk-form-width-mini" type="text" placeholder="00" data-uk-timepicker>
                                   </div>
                                 </div><!-- end pickup-bottom -->
-                                <div class="uk-width-1-1 uk-margin">
+                                <div class="uk-width-1-1 uk-margin-top">
                                   <div class="">
-                                    <button id="button" type="button" class="uk-width-1-1 uk-button-danger uk-button-large uk-margin-small uk-text-large bg-red no-border">Next <i class="uk-icon-chevron-right uk-icon-mini"></i></button>
+                                    <button id="button" type="button" class="uk-width-1-1 uk-button-danger uk-button-large  uk-margin-bottom uk-text-large bg-red no-border">Next <i class="uk-icon-chevron-right uk-icon-mini"></i></button>
                                     <button type="button" class="uk-width-1-1 uk-button-primary uk-button-large uk-margin-small uk-text-large bg-blue no-border">Find a driver</button>
                                   </div>
                                 </div>
@@ -210,15 +224,31 @@
                       </div>
                     </div>
 
-
-                    <div class="uk-width-medium-1-2 uk-width-small-1-1 ride-block-map">
-                      <img src="img/map.jpg" alt="">
+                    <div class="ride-block-map uk-width-medium-1-2 uk-width-small-1-1">
+                      <div class="uk-panel">
+                        <div class="map-icons uk-grid uk-margin-small-bottom">
+                          <div class="map-icon-clock">
+                            <i class="ico-sprite ico-clock uk-margin-small-right"></i>
+                            <span>486 min</span>
+                          </div>
+                          <div class="map-icon-pointer">
+                            <i class="ico-sprite ico-pointer uk-margin-small-right"></i>
+                            <span>486.53 km <i class="uk-icon-sort-down"></i></span>
+                          </div>
+                          <div class="map-icon-calculator">
+                            <i class="ico-sprite ico-calculator uk-margin-small-right"></i>
+                            <span>$ 973.50</span>
+                          </div>
+                        </div>
+                        <img src="img/map.jpg" alt="">
+                      </div>
                     </div>
 
                   </div>
                 </div><!-- end ride-block-main --></div>
               </div>
             </div>
+
           </div><!-- end ride-block -->
 
           <div class="table-price uk-margin-top">
@@ -244,9 +274,9 @@
                         <i class="uk-icon-caret-down"></i>
                       </td>
                       <td class="tg-dntg">
-                        <input class="uk-form-width-small uk-text-center datepicker-select" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="02/12/14-03/01/14">
+                        <input class="uk-form-width-small datepicker-select" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="02/12/14-03/01/14">
                       </td>
-                      <td class="tg-dntg"><input class="uk-form-width-medium uk-text-center route-select" type="" placeholder="for example, Moscow, Russia"></td>
+                      <td class="tg-dntg"><input class="uk-form-width-medium route-select" type="" placeholder="for example, Moscow, Russia"></td>
                       <td class="tg-dntg">
                         <div class="uk-button-group">
                           <div data-uk-dropdown="{mode:'click'}">

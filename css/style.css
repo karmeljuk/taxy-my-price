@@ -19,6 +19,11 @@ body {
   }
 }*/
 
+div.uk-container {
+  padding: 0 100px;
+}
+
+
 a:hover {
   text-decoration: none;
   color: inherit;
@@ -56,7 +61,7 @@ a:hover {
 }
 
 .text-red {
-  color: #F84E62;
+  color: #F84E62 !important;
 }
 
 .pointer {
@@ -89,13 +94,13 @@ a:hover {
 .ico-box{ background-position: 0 0; width: 16px; height: 13px; }
 .ico-calculator{ background-position: 0 -18px; width: 16px; height: 20px; }
 .ico-clock{ background-position: 0 -43px; width: 19px; height: 22px; }
-.ico-compass{ background-position: 0 -70px; width: 24px; height: 24px; }
 .ico-door{ background-position: 0 -99px; width: 15px; height: 13px; }
+
 .ico-fist{
   background-position: 0 -117px; width: 31px; height: 31px;
   position: absolute;
-  left: 50px;
-  top: 10px;
+  left: 93px;
+  top: 8px;
   z-index: 5;
   border-radius: 50%;
 
@@ -106,7 +111,6 @@ a:hover {
 .ico-pointer{ background-position: 0 -211px; width: 22px; height: 20px; }
 .ico-punct-a{ background-position: 0 -236px; width: 18px; height: 24px; }
 .ico-punct-b{ background-position: 0 -265px; width: 18px; height: 24px; }
-.ico-schedule{ background-position: 0 -294px; width: 17px; height: 19px; }
 .ico-seats{ background-position: 0 -318px; width: 19px; height: 15px; }
 .ico-smoking{ background-position: 0 -338px; width: 13px; height: 13px; }
 .ico-suitcase{ background-position: 0 -356px; width: 16px; height: 13px; }
@@ -121,29 +125,52 @@ header {
 }
 
 header .uk-navbar{
-  background: url(../img/header-bg.png) 0 0 no-repeat;
-  height: 48px;
+  background: #fff url(../img/header-bg.png) 0 0 no-repeat;
+  height: 47px;
   border: none;
   border-radius: 0;
 }
 
-header .uk-navbar-nav > li.uk-active > a {
+header .uk-navbar-brand {
+  display: block;
+}
+
+header .uk-navbar-brand a{
+  background: url(../img/logo.png) 0 0 no-repeat;
+  display: inline-block;
+  width: 107px;
+  height: 44px;
+  margin-left: 10px;
+}
+
+header div.uk-navbar-small {
+  padding: 0;
+  margin: 0;
+}
+
+.uk-navbar-nav > li.uk-active > a {
   background: none;
   border: none;
 }
 
-header ul.uk-navbar-nav > li:hover > a, ul.uk-navbar-nav > li > a:focus, ul.uk-navbar-nav > li.uk-open > a {
+ul.uk-navbar-nav > li:hover > a, ul.uk-navbar-nav > li > a:focus, ul.uk-navbar-nav > li.uk-open > a {
   background: none;
   border-left-color: transparent;
   border-right-color: transparent;
   border-top-color: transparent;
 }
 
-header .uk-navbar-nav.uk-hidden-small {
-    margin-left: 170px;
+header .uk-navbar-nav .about {
+  margin-left: 80px;
 }
 
-header ul.uk-navbar-nav > li > a {
+@media screen and (max-width: 1200px) {
+  header .uk-navbar-nav .about {
+    margin-left: 0;
+  }
+}
+
+header .uk-navbar-nav > li > a {
   font-weight: 900;
   line-height: 48px;
   padding-right: 6px;
@@ -157,20 +184,55 @@ header .uk-navbar-nav li.about a:after, header .uk-navbar-nav li.help a:after{
   font-weight: 100;
 }
 
+@media screen and (max-width: 1200px) {
+  header .uk-navbar-nav li.about a:after, header .uk-navbar-nav li.help a:after{
+    display: none;
+  }
+}
+
+header ul.uk-navbar-nav .book {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  header ul.uk-navbar-nav .book {
+    margin-left: 0;
+  }
+}
+
+
 header ul.uk-navbar-nav .book  > a, header ul.uk-navbar-nav .store  > a {
-    height: 100%;
+  height: 100%;
+}
+
+header .uk-navbar-nav .book a {
+  padding: 0 36px 0 29px;
+}
+
+header .uk-navbar-nav .store a {
+  padding: 0 29px 0 36px;
+}
+
+header .uk-navbar-nav .user-menu{
+  float: right;
+}
+
+header .uk-navbar-nav .user-menu a {
+  padding-right: 20px;
+  font-weight: 100;
+  cursor: pointer;
 }
 
 .header-bottom{
   background: #898E97;
 }
 
-div.uk-container {
-  padding: 0 100px;
+header .uk-breadcrumb a {
+  text-decoration: underline;
 }
 
-.uk-breadcrumb a {
-  text-decoration: underline;
+header .uk-breadcrumb > li:nth-child(n+2):before {
+    content: "–>";
 }
 
 /* ========================================================================
@@ -246,9 +308,17 @@ hr.bg-red {
 }
 
 .tabs .uk-width-1-3.uk-active span{
-  background: #fff;
-  color: #F84E62;
+  display: none;
 }
+
+.tabs .uk-width-1-3.uk-active .triangle .uk-icon-check-circle {
+  display: inline-block;
+}
+
+.tabs .triangle .uk-icon-check-circle {
+  display: none;
+}
+
 
 .tabs .triangle {
   height: 54px;
@@ -284,10 +354,10 @@ hr.bg-red {
 .tabs .first-tab .triangle:before {
   display: none;
 }
-
+/*
 .tabs .third-tab .triangle {
   padding-right: 80px;
-}
+}*/
 
 .tabs .third-tab .triangle:after {
   display: none;
@@ -338,9 +408,15 @@ hr.bg-red {
   color: #fff;
 }
 
-.first-tab-content .uk-form .uk-form-width-medium{
-    width: 60%;
+.first-tab-content .uk-form .uk-form-width-medium, .first-tab-content .uk-form .uk-form-width-medium:focus{
+  width: 60%;
+  background: #fff url(../img/ico-sprite.png) no-repeat;
+  background-position: 278px -68px;
+  vertical-align: middle;
 }
+
+
+.ico-compass{  }
 /* ========================================================================
     Table
  ========================================================================== */
@@ -429,6 +505,23 @@ hr.bg-red {
     font-size: 9px !important;
   }
 }
+
+.tg td .datepicker-select, .tg td .datepicker-select:focus {
+  background: #fff url(../img/ico-sprite.png) no-repeat;
+  background-position: 107px -291px;
+  padding-left: 6px;
+  border-radius: 2px;
+  border: 1px solid #969898;
+}
+
+.tg td .route-select, .tg td .route-select:focus {
+  background: #fff url(../img/ico-sprite.png) no-repeat;
+  background-position: 170px -68px;
+  border-radius: 2px;
+  border: 1px solid #969898;
+  padding-left: 6px;
+}
+
 
 /* ========================================================================
     Footer
