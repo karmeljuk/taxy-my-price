@@ -47,16 +47,16 @@
                 <a href="layouts_portfolio.html">Help</a>
               </li>
               <li>
-                <a href="layouts_blog.html">
-                  <span class="uk-badge bg-red"><i class="uk-icon-male uk-icon-medium"></span></i>
+                <a href="">
+                  <i class="ico-sprite ico-user"></i>
                   <span class="uk-margin-small-left uk-margin-small-right">Profit</span>
-                  <span class="uk-badge bg-blue"><i class="uk-icon-cab uk-icon-medium"></span></i>
+                  <i class="uk-icon-medium ico-sprite ico-taxi"></i>
                 </a>
               </li>
 
               <li class="book uk-margin-large-left bg-blue">
                 <a href="#" title="">BOOK</a>
-                <i></i>
+                <i class="uk-icon-medium ico-sprite ico-fist"></i>
               </li>
               <li class="store bg-red">
                 <a href="#" title="">STORE</a>
@@ -118,12 +118,12 @@
 
             <div class="uk-width-medium-1-1 ride-block-top uk-text-center uk-margin-small">
               <div class="uk-grid uk-grid-small uk-text-bold uk-text-large">
-                <div class="uk-width-1-2">
+                <div class="uk-width-medium-1-2 uk-width-small-1-1">
                     <div class="book-rite uk-panel uk-panel-box">
                       <a class="text-red" href="#">Book a ride at your price</a>
                     </div>
                 </div>
-                <div class="uk-width-1-2">
+                <div class="uk-width-medium-1-2 uk-width-small-1-1">
                     <div class="take-best uk-panel uk-panel-box">
                       <a href="#">Take the best order for ride</a>
                     </div>
@@ -149,15 +149,15 @@
 
                 <div class="uk-width-medium-1-1 ride-block-main">
                   <div class="uk-grid  uk-grid-small">
-                    <div class="uk-width-1-2 uk-margin-top">
+                    <div class="uk-width-medium-1-2 uk-width-small-1-1  uk-margin-top">
                       <div class="uk-panel">
                         <ul id="tabs-content" class="uk-switcher">
                           <li class="first-tab-content">
                             <form class="uk-form">
                               <div class="uk-grid">
-                                <label for="from" class="uk-width-medium-1-3 uk-margin-small-top uk-text-bold uk-text-large text-red" >From:</label>
+                                <label for="from" class="uk-width-medium-1-3 uk-margin-small-top uk-text-bold uk-text-large text-red"><i class="uk-icon-medium ico-sprite ico-punct-a"></i>From:</label>
                                 <input id="from" class="uk-form-width-medium uk-float-right uk-margin-small" type="text" name="" value="" placeholder="Address, City or Zip">
-                                <label for="to" class="uk-width-medium-1-3 uk-margin-top uk-text-bold uk-text-large text-red">To:</label>
+                                <label for="to" class="uk-width-medium-1-3 uk-margin-top uk-text-bold uk-text-large text-red"><i class="uk-icon-medium ico-sprite ico-punct-b"></i>To:</label>
                                 <input id="to" class="uk-form-width-medium uk-float-right uk-margin-small" type="text" name="" value="" placeholder="Address, City or Zip">
                               </div>
                             </form>
@@ -211,7 +211,7 @@
                     </div>
 
 
-                    <div class="uk-width-1-2 ride-block-map">
+                    <div class="uk-width-medium-1-2 uk-width-small-1-1 ride-block-map">
                       <img src="img/map.jpg" alt="">
                     </div>
 
@@ -223,268 +223,272 @@
 
           <div class="table-price uk-margin-top">
             <div class="uk-grid">
-              <div class="uk-width-medium-1-1">
-                <table class="tg uk-table">
-                  <tr>
-                    <th class="tg-srf5">Tip</th>
-                    <th class="tg-srf5">Date/time</th>
-                    <th class="tg-srf5">Route</th>
-                    <th class="tg-srf5">Trust</th>
-                    <th class="tg-srf5">PM</th>
-                    <th class="tg-srf5">Price</th>
-                    <th class="tg-srf5">Status</th>
-                    <th class="tg-srf5">Buy</th>
-                  </tr>
-                  <tr class="uk-table-middle table-select">
-                    <td class="tg-dntg">
-                      <i class="uk-icon-taxi icon-blue uk-icon-semimedium"></i>
-                      <i class="uk-icon-caret-down"></i>
-                    </td>
-                    <td class="tg-dntg">
-                      <input class="uk-form-width-small uk-text-center datepicker-select" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="02/12/14-03/01/14">
-                    </td>
-                    <td class="tg-dntg"><input class="uk-form-width-medium uk-text-center route-select" type="" placeholder="for example, Moscow, Russia"></td>
-                    <td class="tg-dntg">
-                      <div class="uk-button-group">
-                        <div data-uk-dropdown="{mode:'click'}">
-                          <button class="uk-button">...<i class="uk-icon-caret-down"></i></button>
-                          <div class="uk-dropdown uk-dropdown-small">
-                            <ul class="uk-nav uk-nav-dropdown">
-                              <li><a href="#">...</a></li>
-                              <li><a href="#">...</a></li>
-                              <li><a href="#">...</a></li>
-                              <li><a href="#">...</a></li>
-                            </ul>
+              <div class="uk-width-large-1-1">
+                <table class="tg uk-table uk-table-hover">
+                  <thead>
+                    <tr>
+                      <th class="tg-srf5">Tip</th>
+                      <th class="tg-srf5">Date/time</th>
+                      <th class="tg-srf5">Route</th>
+                      <th class="tg-srf5">Trust</th>
+                      <th class="tg-srf5">PM</th>
+                      <th class="tg-srf5">Price</th>
+                      <th class="tg-srf5">Status</th>
+                      <th class="tg-srf5">Buy</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="uk-table-middle table-select">
+                      <td class="tg-dntg">
+                        <i class="uk-icon-taxi icon-blue uk-icon-semimedium"></i>
+                        <i class="uk-icon-caret-down"></i>
+                      </td>
+                      <td class="tg-dntg">
+                        <input class="uk-form-width-small uk-text-center datepicker-select" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="02/12/14-03/01/14">
+                      </td>
+                      <td class="tg-dntg"><input class="uk-form-width-medium uk-text-center route-select" type="" placeholder="for example, Moscow, Russia"></td>
+                      <td class="tg-dntg">
+                        <div class="uk-button-group">
+                          <div data-uk-dropdown="{mode:'click'}">
+                            <button class="uk-button">...<i class="uk-icon-caret-down"></i></button>
+                            <div class="uk-dropdown uk-dropdown-small">
+                              <ul class="uk-nav uk-nav-dropdown">
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">...</a></li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </td>
-                    <td class="tg-dntg">
-                      <i class="uk-icon-arrow-up uk-icon-mini pointer"></i>
-                      <i class="uk-icon-arrow-down uk-icon-mini icon-blue pointer"></i>
-                    </td>
-                    <td class="tg-dntg">
-                      <i class="uk-icon-arrow-up uk-icon-mini pointer"></i>
-                      <i class="uk-icon-arrow-down uk-icon-mini icon-blue pointer"></i>
-                      <div class="uk-button-group">
-                        <div data-uk-dropdown="{mode:'click'}">
-                          <button class="uk-button">$10 - $20<i class="uk-icon-caret-down uk-margin-small-left"></i></button>
-                          <div class="uk-dropdown uk-dropdown-small">
-                            <ul class="uk-nav uk-nav-dropdown">
-                              <li><a href="#">$20 - $30</a></li>
-                              <li><a href="#">$30 - $40</a></li>
-                              <li><a href="#">$40 - $50</a></li>
-                              <li><a href="#">$50 - $60</a></li>
-                            </ul>
+                      </td>
+                      <td class="tg-dntg">
+                        <i class="uk-icon-arrow-up uk-icon-mini pointer"></i>
+                        <i class="uk-icon-arrow-down uk-icon-mini icon-blue pointer"></i>
+                      </td>
+                      <td class="tg-dntg">
+                        <i class="uk-icon-arrow-up uk-icon-mini pointer"></i>
+                        <i class="uk-icon-arrow-down uk-icon-mini icon-blue pointer"></i>
+                        <div class="uk-button-group">
+                          <div data-uk-dropdown="{mode:'click'}">
+                            <button class="uk-button">$10 - $20<i class="uk-icon-caret-down uk-margin-small-left"></i></button>
+                            <div class="uk-dropdown uk-dropdown-small">
+                              <ul class="uk-nav uk-nav-dropdown">
+                                <li><a href="#">$20 - $30</a></li>
+                                <li><a href="#">$30 - $40</a></li>
+                                <li><a href="#">$40 - $50</a></li>
+                                <li><a href="#">$50 - $60</a></li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </td>
-                    <td class="tg-dntg">
-                      <div class="uk-button-group">
-                        <div data-uk-dropdown="{mode:'click'}">
-                          <button class="uk-button">All<i class="uk-icon-caret-down uk-margin-small-left"></i></button>
-                          <div class="uk-dropdown uk-dropdown-small">
-                            <ul class="uk-nav uk-nav-dropdown">
-                              <li><a href="#">open</a></li>
-                              <li><a href="#">pending</a></li>
-                              <li><a href="#">close</a></li>
-                              <li><a href="#">cancel</a></li>
-                              <li><a href="#">all happy</a></li>
-                            </ul>
+                      </td>
+                      <td class="tg-dntg">
+                        <div class="uk-button-group">
+                          <div data-uk-dropdown="{mode:'click'}">
+                            <button class="uk-button">All<i class="uk-icon-caret-down uk-margin-small-left"></i></button>
+                            <div class="uk-dropdown uk-dropdown-small">
+                              <ul class="uk-nav uk-nav-dropdown">
+                                <li><a href="#">open</a></li>
+                                <li><a href="#">pending</a></li>
+                                <li><a href="#">close</a></li>
+                                <li><a href="#">cancel</a></li>
+                                <li><a href="#">all happy</a></li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </td>
-                    <td class="tg-dntg">
-                      <div class="uk-button-group">
-                        <div data-uk-dropdown="{mode:'click'}">
-                          <button class="uk-button">Other<i class="uk-icon-caret-down uk-margin-small-left"></i></a></button>
-                          <div class="uk-dropdown uk-dropdown-small">
-                            <ul class="uk-nav uk-nav-dropdown">
-                              <li><a href="#">Other</a></li>
-                              <li><a href="#">Other</a></li>
-                              <li><a href="#">Other</a></li
-                            </ul>
+                      </td>
+                      <td class="tg-dntg">
+                        <div class="uk-button-group">
+                          <div data-uk-dropdown="{mode:'click'}">
+                            <button class="uk-button">Other<i class="uk-icon-caret-down uk-margin-small-left"></i></a></button>
+                            <div class="uk-dropdown uk-dropdown-small">
+                              <ul class="uk-nav uk-nav-dropdown">
+                                <li><a href="#">Other</a></li>
+                                <li><a href="#">Other</a></li>
+                                <li><a href="#">Other</a></li
+                              </ul>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                      <a href="#"><i class="uk-icon-times-circle uk-icon-semimedium icon-red"></i></a>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg"><span>1</span></td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-7v46">escro</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">open</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg number-circle">
-                      <span>2</span>
-                    </td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg">
-                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                    </td>
-                    <td class="tg-lltv">cash</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">pending</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg"><span>3</span></td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg">
-                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                    </td>
-                    <td class="tg-7v46">escro</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">open</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg number-circle">
-                      <span>4</span>
-                    </td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-lltv">cash</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">pending</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg"><span>5</span></td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-7v46">escro</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">open</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg number-circle">
-                      <span>6</span>
-                    </td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-lltv">cash</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">pending</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg"><span>7</span></td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-7v46">escro</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">open</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg number-circle">
-                      <span>8</span>
-                    </td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-lltv">cash</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">pending</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg"><span>9</span></td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-7v46">escro</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">open</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg number-circle">
-                      <span>10</span>
-                    </td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-lltv">cash</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">pending</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr class="uk-table-middle">
-                    <td class="tg-dntg number-circle">
-                      <span>11</span>
-                    </td>
-                    <td class="tg-dntg">02 MAR 14 18:45</td>
-                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                    <td class="tg-lltv">cash</td>
-                    <td class="tg-dntg">$783.85</td>
-                    <td class="tg-dntg">pending</td>
-                    <td class="tg-dntg">
-                      <div class="uk-button uk-button-success">
-                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                      </div>
-                    </td>
-                  </tr>
+                        <a href="#"><i class="uk-icon-times-circle uk-icon-semimedium icon-red"></i></a>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg"><span>1</span></td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-7v46">escro</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">open</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg number-circle">
+                        <span>2</span>
+                      </td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg">
+                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                      </td>
+                      <td class="tg-lltv">cash</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">pending</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg"><span>3</span></td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg">
+                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                      </td>
+                      <td class="tg-7v46">escro</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">open</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg number-circle">
+                        <span>4</span>
+                      </td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-lltv">cash</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">pending</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg"><span>5</span></td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-7v46">escro</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">open</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg number-circle">
+                        <span>6</span>
+                      </td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-lltv">cash</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">pending</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg"><span>7</span></td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-7v46">escro</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">open</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg number-circle">
+                        <span>8</span>
+                      </td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-lltv">cash</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">pending</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg"><span>9</span></td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-7v46">escro</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">open</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg number-circle">
+                        <span>10</span>
+                      </td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-lltv">cash</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">pending</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="uk-table-middle">
+                      <td class="tg-dntg number-circle">
+                        <span>11</span>
+                      </td>
+                      <td class="tg-dntg">02 MAR 14 18:45</td>
+                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                      <td class="tg-lltv">cash</td>
+                      <td class="tg-dntg">$783.85</td>
+                      <td class="tg-dntg">pending</td>
+                      <td class="tg-dntg">
+                        <div class="uk-button uk-button-success">
+                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
             </div>
@@ -496,7 +500,7 @@
       <div class="uk-container uk-container-center uk-margin-top">
         <div class="footer-bg">
           <div class="uk-grid">
-          <div class="uk-width-large-6-10 uk-width-medium-5-10 uk-width-small-1-2 uk-push-1-10">
+          <div class="uk-width-large-6-10 uk-width-medium-5-10 uk-width-small-1-3 uk-push-1-10">
             <nav class="uk-navbar">
               <ul class="uk-navbar-nav uk-hidden-small">
                 <li class="uk-active">

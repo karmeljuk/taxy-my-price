@@ -1,0 +1,1237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rig",
+				"uk-float-right 	UIkit class"
+			],
+			[
+				"ma",
+				"uk-margin-large 	UIkit class"
+			],
+			[
+				"uk-margin",
+				"uk-margin-small-left 	UIkit class"
+			],
+			[
+				"uk-margin-l",
+				"uk-margin-left 	UIkit class"
+			],
+			[
+				"margin",
+				"uk-margin-small 	UIkit class"
+			],
+			[
+				"icon",
+				"uk-icon-medium 	UIkit class"
+			],
+			[
+				"bold",
+				"uk-text-bold 	UIkit class"
+			],
+			[
+				"uk-ma",
+				"uk-margin-small 	UIkit class"
+			],
+			[
+				"div",
+				"uk-grid-divider 	UIkit class"
+			],
+			[
+				"uk-margin-s",
+				"uk-margin-small-top 	UIkit class"
+			],
+			[
+				"mar",
+				"uk-margin-top 	UIkit class"
+			],
+			[
+				"uk-margin-la",
+				"uk-margin-large 	UIkit class"
+			],
+			[
+				"uk-margin-large",
+				"uk-margin-large-left 	UIkit class"
+			],
+			[
+				"uk-width-medium",
+				"uk-width-medium-3-5 	UIkit class"
+			],
+			[
+				"Pr",
+				"Privacy"
+			],
+			[
+				"uk-width",
+				"uk-width-medium-1-1 	UIkit class"
+			],
+			[
+				"uk-push",
+				"uk-push-1-6 	UIkit class"
+			],
+			[
+				"uk-icon-goo",
+				"uk-icon-google-plus-square 	UIkit class"
+			],
+			[
+				"wid",
+				"uk-width-medium-2-3 	UIkit class"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"uk-b",
+				"uk-button 	UIkit class"
+			],
+			[
+				"uk-margin-left",
+				"uk-margin-small-left 	UIkit class"
+			],
+			[
+				"uk-margin-right",
+				"uk-margin-small-right 	UIkit class"
+			],
+			[
+				"margi",
+				"uk-margin-right 	UIkit class"
+			],
+			[
+				"ico",
+				"icon"
+			],
+			[
+				"input",
+				"input	input - text"
+			],
+			[
+				"table",
+				"uk-table-middle 	UIkit class"
+			],
+			[
+				"arro",
+				"uk-icon-arrow-up 	UIkit class"
+			],
+			[
+				"mi",
+				"uk-table-middle 	UIkit class"
+			],
+			[
+				"uk-ico",
+				"uk-icon-medium 	UIkit class"
+			],
+			[
+				"thumbs",
+				"uk-icon-thumbs-up 	UIkit class"
+			],
+			[
+				"uk-form-width",
+				"uk-form-width-medium 	UIkit class"
+			],
+			[
+				"uk-form-width-mi",
+				"uk-form-width-medium 	UIkit class"
+			],
+			[
+				"im",
+				"img	img"
+			],
+			[
+				"marg",
+				"uk-margin-small-top 	UIkit class"
+			],
+			[
+				"left",
+				"uk-float-left 	UIkit class"
+			],
+			[
+				"flo",
+				"uk-float-right 	UIkit class"
+			],
+			[
+				"time",
+				"timepicker"
+			],
+			[
+				"uk-g",
+				"uk-grid 	UIkit class"
+			],
+			[
+				"uk-gri",
+				"uk-grid-divider 	UIkit class"
+			],
+			[
+				"uk-grid",
+				"uk-grid-preserve 	UIkit class"
+			],
+			[
+				"remove",
+				"uk-margin-remove 	UIkit class"
+			],
+			[
+				"rem",
+				"uk-margin-remove 	UIkit class"
+			],
+			[
+				"uk-margin-top",
+				"uk-margin-small-top 	UIkit class"
+			],
+			[
+				"text",
+				"uk-text-bold 	UIkit class"
+			],
+			[
+				"se",
+				"second"
+			],
+			[
+				"butt",
+				"button	Tag"
+			],
+			[
+				"to",
+				"toggle"
+			],
+			[
+				"in",
+				"input	input - button"
+			],
+			[
+				"uk-margi",
+				"uk-margin-small-left 	UIkit class"
+			],
+			[
+				"rad",
+				"border-radius"
+			],
+			[
+				"uk-mar",
+				"uk-margin-remove 	UIkit class"
+			],
+			[
+				"center",
+				"uk-text-center 	UIkit class"
+			],
+			[
+				"uk-wi",
+				"uk-width-1-3"
+			],
+			[
+				"uk-w",
+				"uk-width-1-3"
+			],
+			[
+				"link",
+				"link	link - stylesheet"
+			],
+			[
+				"ti",
+				"ti--	text-indent: -9999px;"
+			],
+			[
+				"Wo",
+				"WordPress"
+			],
+			[
+				"butto",
+				"button"
+			],
+			[
+				"sce",
+				"scheme"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"al",
+				"alpha"
+			],
+			[
+				"va",
+				"value	Attr"
+			],
+			[
+				"thi",
+				"third-item"
+			],
+			[
+				"ra",
+				"bxsh-ra	box-shadow: ${1:inset }${2:h} ${3:v} ${4:blur} ${5:spread }rgba(${6:0}, ${7:0}, ${8:0}, .${9:5});"
+			],
+			[
+				"bra",
+				"border-radius"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"fs",
+				"font-size"
+			],
+			[
+				"pla",
+				"playground"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"brr",
+				"border-radius"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"res",
+				"Resources"
+			],
+			[
+				"page",
+				"pagerfanta"
+			],
+			[
+				"pa",
+				"pagerfanta"
+			],
+			[
+				"my",
+				"my_pager"
+			],
+			[
+				"si",
+				"sidebar	Sidebar Template"
+			],
+			[
+				"pag",
+				"pagination"
+			],
+			[
+				"ja",
+				"javascripts"
+			],
+			[
+				"Se",
+				"SearchBundle"
+			],
+			[
+				"SY",
+				"Symfony2"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"wp_nav",
+				"wp_nav_menu	wp_nav_menu All Options"
+			],
+			[
+				"object",
+				"object"
+			],
+			[
+				"var_d",
+				"var_dump($p"
+			],
+			[
+				"perso",
+				"person"
+			],
+			[
+				"commu",
+				"communicate"
+			],
+			[
+				"comm",
+				"communicate"
+			],
+			[
+				"function",
+				"create_function"
+			],
+			[
+				"publ",
+				"public"
+			],
+			[
+				"pub",
+				"public"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			],
+			[
+				"di",
+				"die"
+			],
+			[
+				"prin",
+				"print_r($value"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ar",
+				"array	$… = array (…)"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"print",
+				"printf"
+			],
+			[
+				"req1",
+				"req1	require_once …"
+			],
+			[
+				"incl",
+				"incl1	include_once …"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"scr",
+				"script	Tag"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"foo",
+				"footer	<footer>"
+			],
+			[
+				"heade",
+				"header	Tag"
+			],
+			[
+				"head",
+				"header	<header>"
+			],
+			[
+				"he",
+				"header	<header>"
+			],
+			[
+				"title",
+				"title"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"mo",
+				"month"
+			],
+			[
+				"tuts",
+				"tuts_sites"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"offs",
+				"offset	.offset"
+			],
+			[
+				"off",
+				"offset	.offset"
+			],
+			[
+				"scro",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"wi",
+				"wrapInner	wrapInner"
+			],
+			[
+				"rea",
+				"ready	document.ready - $(function()"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"tr",
+				"border-top-left-radius"
+			],
+			[
+				"pr",
+				"pos-r	position: relative;"
+			],
+			[
+				"ea",
+				"earth"
+			],
+			[
+				"scrol",
+				"scroll	.scroll()"
+			],
+			[
+				"scroll",
+				"scrollPosition"
+			],
+			[
+				"funct",
+				"function"
+			],
+			[
+				"occupatio",
+				"occupation"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"emmet ",
+				"Set Syntax: Emmet"
+			],
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"jqu",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"git ",
+				"Git: Graph All"
+			],
+			[
+				"git g",
+				"Git: Gitk"
+			],
+			[
+				"git b",
+				"Git: New Branch"
+			],
+			[
+				"git",
+				"Git: Graph All"
+			],
+			[
+				"git bra",
+				"Git: Change Branch"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"codes",
+				"PHP Code Sniffer: Turn Execute On Save Off"
+			],
+			[
+				"shif",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"codesn",
+				"PHP Code Sniffer: Turn Execute On Save Off"
+			],
+			[
+				"phpcs",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"cop",
+				"File: Copy Path"
+			],
+			[
+				"copy",
+				"File: Copy as Tag style"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"subli",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"Sublime",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"sublinter",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"package ",
+				"Package Control: Disable Package"
+			],
+			[
+				"snippet html5",
+				"Snippet: Simple HTML5 Boilerplate"
+			],
+			[
+				"fet",
+				"Fetch: Manage"
+			],
+			[
+				"fetc",
+				"Fetch: Package"
+			],
+			[
+				"fe",
+				"Fetch: Package"
+			],
+			[
+				"PAC",
+				"Package Control: Enable Package"
+			],
+			[
+				"desab",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"Package Control: de",
+				"Package Control: Disable Package"
+			],
+			[
+				"plugi",
+				"SublimeLinter: Create Linter Plugin"
+			],
+			[
+				"jq",
+				"Snippet: jQuery.browser"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"buil",
+				"Build: Build"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"togle",
+				"View: Toggle Minimap"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"ab",
+				"About"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-navbar-fixed-top"
+			],
+			[
+				"",
+				"BracketHighlighter: Jump to Left Bracket"
+			],
+			[
+				"proge",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 396.0,
+		"history":
+		[
+			"clear",
+			"SublimeLinter: php enabled",
+			"SublimeLinter: php enabled (using \"php\" for executable)",
+			"sublime.active_window().active_view().settings().get('syntax')",
+			"cd",
+			"pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) ",
+			"import urllib.request,os;",
+			"urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler()));",
+			"os.makedirs(ipp) if not os.path.exists(ipp) else None;",
+			"ipp=sublime.installed_packages_path();",
+			"pf='Package Control.sublime-package';",
+			"import urllib2,os;"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/xata/Work/Сайти/Startup/taxy-my-price.com/taxy-my-price/index.html",
+		"/home/xata/Work/Сайти/Startup/project-1/project-1/css/style.css",
+		"/home/xata/Work/Сайти/Startup/project-1/project-1/index.html",
+		"/home/xata/Work/Сайти/karmeljuk.ga/karmeljuk-template/css/component.css",
+		"/home/xata/Work/Сайти/karmeljuk.ga/karmeljuk-template/index.html",
+		"/home/xata/Work/Сайти/Startup/project-1/project-1/css/uikit.css",
+		"/home/xata/Work/Сайти/Startup/project-1/project-1/css/uikit.almost-flat.css",
+		"/home/xata/Work/Сайти/Startup/uikit-master/docs/layouts_frontpage.html",
+		"/home/xata/Adobe Photoshop CS3.url",
+		"/home/xata/Work/Win/Photoshop CS3 Portable/Read Me!.txt",
+		"/home/xata/Work/Win/Ck_Photoshop_CS2/newfreesoft.ru",
+		"/home/xata/Work/Сайти/Startup/uikit-master/index.html",
+		"/home/xata/Work/Сайти/Pirogova/sporton-deti.com.ua/sporton-template/index.html",
+		"/home/xata/Work/Сайти/Startup/uikit-master/docs/css/docs.css",
+		"/tmp/fz3temp-1/woocommerce-uk_UA.po",
+		"/home/xata/Work/Сайти/mir-kolgot.com/themes/virtue/languages/uk_UA.po",
+		"/tmp/fz3temp-1/wp-config.php",
+		"/home/xata/Work/CMS/WP/wordpress/wp-config-sample.php",
+		"/tmp/fz3temp-1/head.php",
+		"/tmp/fz3temp-1/header.php",
+		"/home/xata/Work/Сайти/mir-kolgot.com/themes/virtue/languages/default.po",
+		"/home/xata/Work/Сайти/mir-kolgot.com/plugins/poedit-1.6.7/README",
+		"/tmp/fz3temp-1/index.html",
+		"/tmp/fz3temp-1/archive-product.php",
+		"/tmp/fz3temp-1/config.php",
+		"/home/xata/Work/Сайти/zipservice.com.ua/plugins/debugger/readme.txt",
+		"/home/xata/Work/Сайти/zipservice.com.ua/plugins/edit-products-admin-products-list/READ_ME.txt",
+		"/tmp/fz3temp-1/mysql.php",
+		"/tmp/fz3temp-1/index.php",
+		"/tmp/fz3temp-1/config 2.php",
+		"/tmp/fz3temp-1/sidebar.php",
+		"/tmp/fz3temp-1/admin_scripts.php",
+		"/tmp/fz3temp-1/sidebar 2.php",
+		"/tmp/fz3temp-1/functions.php",
+		"/home/xata/Work/Сайти/zipservice.com.ua/.Новий порожній файл",
+		"/home/xata/Work/Сайти/zipservice.com.ua/plugins/Readme7-0/readme.txt",
+		"/home/xata/Work/Сайти/mir-kolgot.com/.Новий порожній файл",
+		"/home/xata/Work/Сайти/abcname.com.ua/.Новий порожній файл",
+		"/tmp/fz3temp-1/ru_RU.mo",
+		"/tmp/fz3temp-1/base.php",
+		"/tmp/fz3temp-1/page.php",
+		"/tmp/fz3temp-1/page-sidebar.php",
+		"/tmp/fz3temp-1/page-feature-sidebar.php",
+		"/tmp/fz3temp-1/readme.txt",
+		"/home/xata/Music/Іншоземний рок/Helloween/Keeper_of_the_Seven_Keys/helloween-keeper_of_the_seven_keys_parts_1_and_2-remastered-2cd-2010.nfo",
+		"/home/xata/Work/Сайти/mir-kolgot.com.ua/thems/virtue/style.css",
+		"/home/xata/Documents/Мандри/Подорожі безплатні.txt",
+		"/tmp/fz3temp-1/component.css",
+		"/home/xata/.bash_aliases",
+		"/home/xata/Work/телефон/Мої контакти/Inna Shemet.vcf",
+		"/home/xata/martck.ga.txt",
+		"/tmp/fz3temp-1/ReadMe.txt",
+		"/home/xata/Work/Сайти/MDG/mart.ck.ua/configuration.php",
+		"/home/xata/Work/Сайти/MDG/mart.ck.ua/.Новий порожній файл",
+		"/etc/apt/apt.conf.d/10periodic",
+		"/home/xata/Work/Сайти/MDG/mart.ck.ua/untitled.sql",
+		"/home/xata/Work/Сайти/MDG/mart.ck.ua/www/homemonte.ru/.htaccess",
+		"/tmp/fz3temp-1/configuration.php-dist",
+		"/tmp/fz3temp-1/index2.php",
+		"/home/xata/Work/Сайти/MDG/mart.ck.ua/www/homemonte.ru/configuration.php",
+		"/home/xata/Work/Сайти/MDG/mart.ck.ua/admin-2_full-2013-03-10/etc/35865225.passwd",
+		"/home/xata/Work/Сайти/MDG/mart.ck.ua/admin-2_full-2013-03-10/pbkp_MySQL_homemonte.sql",
+		"/home/xata/Work/Сайти/MDG/mart.ck.ua/imdex.php",
+		"/home/xata/Work/Сайти/punkt.com.ua/.Неназваний документ",
+		"/home/xata/Work/телефон/-----Нове------/SlovoEd_Compact_ItalRuss_RussItal_dictionary_for_S60/Program/ReadMe.txt",
+		"/home/xata/.cache/.fr-J2sJ6m/AndroidManifest.xml",
+		"/home/xata/Work/Сайти/MDG/homemonte.ru/.Новий порожній файл",
+		"/home/xata/Work/Сайти/Altair/weheartmoscow.com/.Новий порожній файл",
+		"/home/xata/скоромовки.txt",
+		"/home/xata/html5doctor.com/demos/history/index.html",
+		"/home/xata/Work/Сайти/karmeljuk.ga/karmeljuk-template/js/boxlayout.js",
+		"/home/xata/Documents/скоромовки.txt",
+		"/tmp/fz3temp-1/style.css",
+		"/home/xata/Work/Скачане цікаве/tympanus.net/OverlayLikeEffect/index.html",
+		"/home/xata/Work/Сайти/karmeljuk.ga/minify-2.1.7/README.txt",
+		"/tmp/fz3temp-1/modernizr.custom.js",
+		"/tmp/fz3temp-1/boxlayout.js",
+		"/home/xata/Work/Сайти/karmeljuk.ga/plugins/jquery-image-rollover/jquery-image-rollover/custom.js",
+		"/home/xata/Work/Сайти/karmeljuk.ga/plugins/jquery-image-rollover/jquery-image-rollover/index.html",
+		"/home/xata/Work/Сайти/karmeljuk.ga/plugins/jquery-image-rollover/jquery-image-rollover/styles.css",
+		"/home/xata/Work/Сайти/karmeljuk.ga/plugins/DirectionAwareHoverEffect/DirectionAwareHoverEffect/index.html",
+		"/home/xata/Work/Сайти/karmeljuk.ga/.Новий порожній файл",
+		"/home/xata/Work/Сайти/karmeljuk.ga/karmeljuk-template/robots.txt",
+		"/home/xata/Work/Сайти/karmeljuk.ga/karmeljuk-template/sitemap.xml",
+		"/home/xata/Work/Сайти/karmeljuk.ga/karmeljuk-template/README.md",
+		"/home/xata/Work/Сайти/karmeljuk.ga/plugins/BorderAnimationSVG/BorderAnimationSVG/index.html",
+		"/home/xata/Work/FrontEnd/Sceleton/Magazine/magazine/stylesheets/skeleton.css",
+		"/home/xata/Work/FrontEnd/Sceleton/Magazine/magazine/stylesheets/base.css",
+		"/home/xata/Work/FrontEnd/Sceleton/Magazine/magazine/stylesheets/layout.css",
+		"/home/xata/Downloads/backup/pkglist-2",
+		"/home/xata/Work/Сайти/Pirogova/sporton-deti.com.ua/sporton-template/css/style.css",
+		"/home/xata/Work/Сайти/karmeljuk.ga/копія karmeljuk-template/index.html",
+		"/home/xata/Work/Сайти/karmeljuk.ga/копія karmeljuk-template/css/component.css",
+		"/home/xata/Work/Сайти/karmeljuk.ga/plugins/ProgressBars/ProgressBars/index.html",
+		"/home/xata/Work/Сайти/karmeljuk.ga/plugins/ProgressBars/ProgressBars/css/style.css",
+		"/home/xata/Downloads/backup/etc/hosts",
+		"/home/xata/.bashrc",
+		"/home/xata/.profile",
+		"/home/xata/.bash_profile",
+		"/tmp/fz3temp-1/.htaccess",
+		"/opt/sublime_text/changelog.txt",
+		"/home/xata/backup/etc/hosts",
+		"/home/xata/backup/pkglist",
+		"/home/xata/backup/README",
+		"/home/xata/.codes-karmeljuk.txt",
+		"/home/xata/Work/Сайти/MDG/bercart.ru/.Новий порожній файл",
+		"/tmp/fz3temp-1/template.css",
+		"/home/xata/Documents/Література/Нові/1984.txt",
+		"/home/xata/Work/Сайти/Altair/elendecor.ru/.Новий порожній файл",
+		"/tmp/fz3temp-1/layout.css",
+		"/home/xata/Work/Сайти/MDG/bercart.ru/htaccess.txt",
+		"/home/xata/Work/Сайти/MDG/dh.ck.ua/www/index.html",
+		"/home/xata/Work/Сайти/MDG/dh.ck.ua/plugins/easybox/index.html",
+		"/home/xata/Work/Сайти/MDG/dh.ck.ua/www/stylesheets/layout.css",
+		"/home/xata/.conkyrc",
+		"/home/xata/Work/Сайти/Koval/dnipro-wave/www/index.html",
+		"/home/xata/Work/Сайти/vomed.org.ua/бекапи/15.03.2013/index.html",
+		"/home/xata/Work/Сайти/vomed.org.ua/бекапи/03.02.2012/index.html",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/www/stylesheets/layout.css",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/www/index.html",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/plugins/easybox/index.html",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/www/stylesheets/base.css",
+		"/home/xata/Work/Сайти/Pirogova/sporton/sporton-template/index.html",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/www/stylesheets/skeleton.css",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/www/stylesheets/font/nokia-sans.css",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/frameworks/css-framework/css/cssf-base.css",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/www/css-framework/css-framework-content.html",
+		"/home/xata/Work/Сайти/Віталій Коваль/Нерухомість/www/css-framework/css-framework-layout.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/geekhub/hometask-8/src/Blogger",
+			"/var/www/geekhub/hometask-8/src/Blogger/BlogBundle/Entity",
+			"/src/Blogger/BlogBundle",
+			"<project>/src/Blogger/BlogBundle",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"uk-navbar",
+			"top",
+			"uk-panel",
+			"tabs-content",
+			"offcanvas",
+			"26",
+			"28",
+			"30",
+			"40",
+			"#fa5ba5",
+			"fa5ba5",
+			"40",
+			"40px",
+			"triangle",
+			"input",
+			"next",
+			"All",
+			"all",
+			"<li><a href=\"\">$10 - $20</a></li>",
+			"text-blue",
+			"2",
+			"\n            <li>\n              <a href=\"layouts_blog.html\">Privacy Policy</a>\n            </li>",
+			"price",
+			"form",
+			"ride-block-select",
+			"div",
+			"  border-style: solid;\n  border-width: 26px 0 26px 20px;\n  border-color: transparent transparent transparent #f84d61;",
+			"uk",
+			"book-rite",
+			".book-rite",
+			"</p>",
+			"<p>",
+			"p",
+			"span",
+			"Додати в кошик",
+			"опції",
+			"Вибрати опції",
+			"опції",
+			"вибрати",
+			"Вибрати",
+			"вибрати",
+			"contact",
+			"//Application Classes:",
+			"side",
+			"9",
+			"3",
+			"visib",
+			"62",
+			"homemonte.ru",
+			"creating",
+			"сreate",
+			"CREATOR",
+			"Templatel layout",
+			"bl-icon-close",
+			"div.bl-panel-items > div > div",
+			"karm",
+			"span",
+			"gmail",
+			"p",
+			"div",
+			"Joomla",
+			"aliases",
+			"-2",
+			"663399",
+			"660099",
+			"f42323",
+			"f0a3a3",
+			"}\n",
+			"50%",
+			"left",
+			"h3",
+			"DF01D7",
+			"0066ff",
+			"0088ff",
+			"0033ff",
+			"99",
+			"33",
+			"\"",
+			" class=\"lightbox\"",
+			" class=\"lightbox\" ",
+			" class",
+			"5",
+			"4",
+			"3",
+			"1",
+			"set",
+			"wlan0",
+			"en",
+			"1",
+			" clear",
+			"left",
+			"p50",
+			"six",
+			"div",
+			"section",
+			"tabs",
+			".theme-default",
+			"\n.",
+			"controlNavEl",
+			"div",
+			"ul",
+			"Оставить заявку",
+			".header .form",
+			".5",
+			"ЬТЕ",
+			"</div>",
+			"<div>",
+			"\"\"",
+			".content",
+			"Ваш телефон",
+			"|",
+			"999",
+			";\n",
+			"left",
+			"6u",
+			"p",
+			"8u",
+			"9u",
+			"</p>",
+			"<p>",
+			"p",
+			"order",
+			".top-scheme",
+			"4",
+			"100",
+			"90",
+			"3",
+			"3px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"            <nav class=\"uk-navbar uk-margin-large-bottom\">\n                <a class=\"uk-navbar-brand uk-hidden-small\" href=\"layouts_frontpage.html\">Brand</a>\n                <ul class=\"uk-navbar-nav uk-hidden-small\">\n                    <li class=\"uk-active\">\n                        <a href=\"layouts_frontpage.html\">Frontpage</a>\n                    </li>\n                    <li>\n                        <a href=\"layouts_portfolio.html\">Portfolio</a>\n                    </li>\n                    <li>\n                        <a href=\"layouts_blog.html\">Blog</a>\n                    </li>\n                    <li>\n                        <a href=\"layouts_documentation.html\">Documentation</a>\n                    </li>\n                    <li>\n                        <a href=\"layouts_contact.html\">Contact</a>\n                    </li>\n                    <li>\n                        <a href=\"layouts_login.html\">Login</a>\n                    </li>\n                </ul>\n                <a href=\"#offcanvas\" class=\"uk-navbar-toggle uk-visible-small\" data-uk-offcanvas></a>\n                <div class=\"uk-navbar-brand uk-navbar-center uk-visible-small\">Brand</div>\n            </nav>",
+			"martck.ga",
+			".header",
+			"<?php echo $category->category_name ?>",
+			"ppp0",
+			"http://www.mexa-navsegda.ru/en",
+			"wpen",
+			"Стр.",
+			"Навигация по магазину",
+			"BloggerBlogBundle",
+			"'kreativ'",
+			"kreativ",
+			"Поиск",
+			".sidebar",
+			"Category",
+			"h2",
+			"symblog",
+			"-12"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"fonts/websymbols/websymbols-regular-webfont.woff"
+			],
+			[
+				"html",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Work/Sublime Text/subl-config.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

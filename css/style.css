@@ -7,6 +7,18 @@ body {
   background: #fff url(../img/page-bg.png);
 }
 
+/*@media screen and (max-width: 900px) and  (min-width: 527px){
+  body *{
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 526px){
+  body *{
+    font-size: 6px !important;
+  }
+}*/
+
 a:hover {
   text-decoration: none;
   color: inherit;
@@ -64,6 +76,44 @@ a:hover {
 }
 
 /* ========================================================================
+    Ico Sprite
+ ========================================================================== */
+
+.ico-sprite {
+  background: #fff url(../img/ico-sprite.png) no-repeat;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ico-box{ background-position: 0 0; width: 16px; height: 13px; }
+.ico-calculator{ background-position: 0 -18px; width: 16px; height: 20px; }
+.ico-clock{ background-position: 0 -43px; width: 19px; height: 22px; }
+.ico-compass{ background-position: 0 -70px; width: 24px; height: 24px; }
+.ico-door{ background-position: 0 -99px; width: 15px; height: 13px; }
+.ico-fist{
+  background-position: 0 -117px; width: 31px; height: 31px;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  z-index: 5;
+  border-radius: 50%;
+
+}
+.ico-non-smoking{ background-position: 0 -153px; width: 13px; height: 13px; }
+.ico-passenger{ background-position: 0 -171px; width: 15px; height: 17px; }
+.ico-pets{ background-position: 0 -193px; width: 14px; height: 13px; }
+.ico-pointer{ background-position: 0 -211px; width: 22px; height: 20px; }
+.ico-punct-a{ background-position: 0 -236px; width: 18px; height: 24px; }
+.ico-punct-b{ background-position: 0 -265px; width: 18px; height: 24px; }
+.ico-schedule{ background-position: 0 -294px; width: 17px; height: 19px; }
+.ico-seats{ background-position: 0 -318px; width: 19px; height: 15px; }
+.ico-smoking{ background-position: 0 -338px; width: 13px; height: 13px; }
+.ico-suitcase{ background-position: 0 -356px; width: 16px; height: 13px; }
+.ico-taxi{ background-position: 0 -374px; width: 27px; height: 27px; }
+.ico-user{ background-position: 0 -406px; width: 27px; height: 27px; }
+
+/* ========================================================================
     Header
  ========================================================================== */
 header {
@@ -77,12 +127,12 @@ header .uk-navbar{
   border-radius: 0;
 }
 
-.uk-navbar-nav > li.uk-active > a {
+header .uk-navbar-nav > li.uk-active > a {
   background: none;
   border: none;
 }
 
-ul.uk-navbar-nav > li:hover > a, ul.uk-navbar-nav > li > a:focus, ul.uk-navbar-nav > li.uk-open > a {
+header ul.uk-navbar-nav > li:hover > a, ul.uk-navbar-nav > li > a:focus, ul.uk-navbar-nav > li.uk-open > a {
   background: none;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -105,6 +155,10 @@ header .uk-navbar-nav li.about a:after, header .uk-navbar-nav li.help a:after{
   margin-left: 20px;
   font-size: 22px;
   font-weight: 100;
+}
+
+header ul.uk-navbar-nav .book  > a, header ul.uk-navbar-nav .store  > a {
+    height: 100%;
 }
 
 .header-bottom{
@@ -134,6 +188,20 @@ div.uk-container {
 .ride-block-top .uk-panel {
   height: 43px;
   line-height: 43px;
+}
+
+@media screen and (max-width: 780px) and  (min-width: 527px){
+  .ride-block-top .uk-panel {
+    font-size: 10px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 526px){
+  .ride-block-top .uk-panel {
+    font-size: 6px;
+    padding: 0;
+  }
 }
 
 .ride-block-main .uk-panel {
@@ -234,8 +302,33 @@ hr.bg-red {
   border-left-color: #F84E62;
 }
 
+@media screen and (max-width: 780px) and  (min-width: 527px){
+  .tabs .triangle {
+    font-size: 10px;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
 
+  .tabs .triangle:after, .tabs .triangle:before, .tabs .triangle span {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 526px){
+  .tabs .triangle{
+    font-size: 6px;
+    padding: 0;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .tabs .triangle:after, .tabs .triangle:before, .tabs .triangle span {
+    display: none;
+  }
+}
 
 .take-best {
   background: #508cd1;
@@ -252,13 +345,58 @@ hr.bg-red {
     Table
  ========================================================================== */
 
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
-.tg .tg-srf5{font-weight:bold;background-color:#528ed3;color:#ffffff;text-align:center}
-.tg .tg-dntg{color:#3c3d45;text-align:center}
-.tg .tg-7v46{font-weight:bold;color:#528ed3;text-align:center}
-.tg .tg-lltv{font-weight:bold;color:#3c3d45;text-align:center}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #aabcfe;
+}
+
+.tg tr {
+  background-color: #e8edff;
+}
+
+.tg td {
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #aabcfe;
+}
+
+.tg th {
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #aabcfe;
+  background-color: #b9c9fe;
+}
+
+.tg .tg-srf5 {
+  font-weight: bold;
+  background-color: #528ed3;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tg .tg-dntg {
+  text-align: center;
+}
+
+.tg .tg-7v46 {
+  font-weight: bold;
+  color: #528ed3;
+  text-align: center;
+}
+
+.tg .tg-lltv {
+  font-weight: bold;
+  color: #3c3d45;
+  text-align: center;
+}
 
 .tg td>span {
   background-color: #4F87DD;
@@ -285,6 +423,13 @@ hr.bg-red {
 .tg td .uk-button.uk-button-success {
   background: #26BC30;
 }
+
+@media screen and (max-width: 920px) {
+  table.tg * {
+    font-size: 9px !important;
+  }
+}
+
 /* ========================================================================
     Footer
  ========================================================================== */
@@ -327,6 +472,7 @@ footer .uk-navbar-nav li:last-child a:after {
 footer .footer-social {
   height: 49px;
   line-height: 49px;
+  overflow: hidden;
 }
 
 footer .footer-social .uk-icon-twitter-square {
@@ -341,3 +487,5 @@ footer .footer-social .uk-icon-google-plus-square {
 footer .footer-social .uk-icon-linkedin-square {
   color: #2968af;
 }
+
+
