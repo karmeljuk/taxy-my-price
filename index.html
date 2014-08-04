@@ -1,120 +1,113 @@
 <!DOCTYPE html>
 <html lang="en-gb" dir="ltr">
-
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Taxy My Price</title>
-      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-      <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
-      <link rel="stylesheet" href="css/uikit.almost-flat.min.css">
-      <link rel="stylesheet" href="css/addons/uikit.almost-flat.addons.min.css">
-      <link rel="stylesheet" href="css/style.css">
-      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-      <script src="js/uikit.min.js"></script>
-      <script src="js/addons/autocomplete.min.js"></script>
-      <script src="js/addons/datepicker.min.js"></script>
-      <script src="js/addons/timepicker.min.js"></script>
-
-
-      <!-- Pixel Perfect -->
-      <!-- <script src="http://jek-fdrv.com/pixp/pixp.js" type="text/javascript"></script> -->
-      <!-- End Pixel Perfect -->
-
-      <script type="text/javascript">
-      $(function() {
-        $( "#button" ).click(function() {
-          $( "#tabs-content .second-tab-content" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
-          $( "#tabs .second-tab" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
-        });
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxy My Price</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/uikit.almost-flat.min.css">
+    <link rel="stylesheet" href="css/addons/uikit.almost-flat.addons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+    <script src="js/jquery.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/addons/autocomplete.min.js"></script>
+    <script src="js/addons/datepicker.min.js"></script>
+    <script src="js/addons/timepicker.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+      $( "#next-1" ).click(function() {
+        $( "#tabs-content .second-tab-content" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
+        $( "#tabs .second-tab" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
       });
+      $( "#next-2" ).click(function() {
+        $( "#tabs-content .third-tab-content" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
+        $( "#tabs .third-tab" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
+      });
+      $( "#back-2" ).click(function() {
+        $( "#tabs-content .first-tab-content" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
+        $( "#tabs .first-tab" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
+      });
+      $( "#back-3" ).click(function() {
+        $( "#tabs-content .second-tab-content" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
+        $( "#tabs .second-tab" ).addClass( "uk-active").siblings('.uk-active').removeClass('uk-active');
+      });
+    });
+    </script>
+  </head>
 
-      </script>
-
-    </head>
-
-    <body>
-
-      <header>
-        <div class="uk-container uk-container-center">
-          <nav class="uk-navbar uk-grid">
-            <div class="uk-width-large-2-10 uk-hidden-medium uk-hidden-small uk-navbar-brand">
-              <a href="#" class=""><h1 class="hidden">Taxi My Drive</h1></a>
-            </div>
-            <ul class="uk-navbar-nav uk-hidden-small uk-width-large-8-10 uk-width-medium-1-1">
-              <li class="uk-active about">
-                <a href="layouts_frontpage.html">About</a>
-              </li>
-              <li class="help">
-                <a href="layouts_portfolio.html">Help</a>
-              </li>
-              <li class="uk-margin-right">
-                <a href="">
-                  <i class="ico-sprite ico-user"></i>
-                  <span class="uk-margin-small-left uk-margin-small-right">Profit</span>
-                  <i class="uk-icon-medium ico-sprite ico-taxi"></i>
-                </a>
-              </li>
-
-              <li class="book bg-blue">
-                <a href="" title="">BOOK</a>
-                <i class="ico-sprite ico-fist"></i>
-              </li>
-              <li class="store bg-red">
-                <a href="" title="">STORE</a>
-              </li>
-              <li class="user-menu" data-uk-dropdown="{mode:'click'}">
-                <a class="text-red" href="#">Hello, Boris<i class="uk-icon-caret-down uk-margin-small-left"></i></a>
-                <div class="uk-dropdown uk-dropdown-small">
-                  <ul class="uk-nav uk-nav-dropdown">
-                    <li><a href="#">Option 1</a></li>
-                    <li><a href="#">Option 2</a></li>
-                    <li><a href="#">Option 3</a></li>
-                    <li><a href="#">Option 4</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-            <a href="#offcanvas-header" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-            <div class="uk-navbar-brand uk-navbar-small uk-visible-small"><a href="#"></a></div>
-
-
-          </nav>
-        </div><!-- end uk-container -->
-
-          <div class="header-bottom">
-            <div class="uk-container uk-container-center">
-              <div class="uk-grid uk-margin-small-top uk-margin-small-bottom" data-uk-grid-margin>
-                <div class="uk-width-medium-9-10">
-                  <ul class="uk-breadcrumb">
-                    <li><a class="text-white" href="#">Главная</a></li>
-                    <li class="uk-active text-white"><span>Личный кабинет</span></li>
-                  </ul>
-                </div>
-                <div class="uk-width-medium-1-10 uk-form-select uk-float-right" data-uk-form-select>
-                  <span>ENG<i class="uk-icon-sort-down"></i></span>
-                  <select>
-                    <option value="1">ENG</option>
-                    <option value="2">RU</option>
-                  </select>
-                </div>
-              </div><!-- end header-bottom --></div>
-          </div>
-
-      </header>
-
+  <body>
+    <header>
       <div class="uk-container uk-container-center">
-        <div class="wrap" role="document">
-
-          <div class="uk-grid banner uk-margin-top" data-uk-grid-margin>
-            <div class="uk-width-medium-1-1">
-                <a href=""><img src="img/banner.jpg" alt=""></a>
+        <nav class="uk-navbar uk-grid">
+          <div class="uk-width-large-2-10 uk-hidden-medium uk-hidden-small uk-navbar-brand">
+            <a href="#" class=""><h1 class="hidden">Taxi My Drive</h1></a>
+          </div>
+          <ul class="uk-navbar-nav uk-hidden-small uk-width-large-8-10 uk-width-medium-1-1">
+            <li class="uk-active about">
+              <a href="layouts_frontpage.html">About</a>
+            </li>
+            <li class="help">
+              <a href="layouts_portfolio.html">Help</a>
+            </li>
+            <li class="uk-margin-right">
+              <a href="">
+                <i class="ico-sprite ico-user"></i>
+                <span class="uk-margin-small-left uk-margin-small-right">Profit</span>
+                <i class="uk-icon-medium ico-sprite ico-taxi"></i>
+              </a>
+            </li>
+            <li class="book bg-blue">
+              <a href="" title="">BOOK</a>
+              <i class="ico-sprite ico-fist"></i>
+            </li>
+            <li class="store bg-red">
+              <a href="" title="">STORE</a>
+            </li>
+            <li class="user-menu" data-uk-dropdown="{mode:'click'}">
+              <a class="text-red" href="#">Hello, Boris<i class="uk-icon-caret-down uk-margin-small-left"></i></a>
+              <div class="uk-dropdown uk-dropdown-small">
+                <ul class="uk-nav uk-nav-dropdown">
+                  <li><a href="#">Option 1</a></li>
+                  <li><a href="#">Option 2</a></li>
+                  <li><a href="#">Option 3</a></li>
+                  <li><a href="#">Option 4</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <a href="#offcanvas-header" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+          <div class="uk-navbar-brand uk-navbar-small uk-visible-small"><a href="#"></a></div>
+        </nav>
+      </div><!-- end uk-container -->
+      <div class="header-bottom">
+        <div class="uk-container uk-container-center">
+          <div class="uk-grid uk-margin-small-top uk-margin-small-bottom" data-uk-grid-margin>
+            <div class="uk-width-medium-9-10">
+              <ul class="uk-breadcrumb">
+                <li><a class="text-white" href="#">Главная</a></li>
+                <li class="uk-active text-white"><span>Личный кабинет</span></li>
+              </ul>
             </div>
-          </div><!-- end banner -->
-
-          <div class="ride-block">
-            <div class="uk-grid uk-margin-top">
-
+            <div class="uk-width-medium-1-10 uk-form uk-float-right">
+              <select class="">
+                <option>ENG</option>
+                <option>RU</option>
+              </select>
+            </div>
+          </div><!-- end header-bottom --></div>
+      </div>
+    </header>
+    <div class="uk-container uk-container-center">
+      <div class="wrap" role="document">
+        <div class="uk-grid banner uk-margin-top" data-uk-grid-margin>
+          <div class="uk-width-medium-1-1">
+              <a href=""><img src="img/banner.jpg" alt=""></a>
+          </div>
+        </div><!-- end banner -->
+        <div class="ride-block">
+          <div class="uk-grid uk-margin-top">
             <div class="uk-width-medium-1-1 ride-block-top uk-text-center uk-margin-small">
               <div class="uk-grid uk-grid-small uk-text-bold uk-text-large">
                 <div class="uk-width-medium-1-2 uk-width-small-1-1">
@@ -129,32 +122,33 @@
                 </div>
               </div>
             </div><!-- end ride-block-top -->
-
-            <div class="uk-width-medium-1-1 uk-margin-small-top">
+            <div class="uk-width-medium-1-1">
               <div class="ride-block-middle">
                 <div class="uk-width-medium-1-1 tabs uk-margin-small">
                   <ul id="tabs" class="uk-grid uk-text-center uk-text-bold uk-margin-remove" data-uk-switcher="{connect:'#tabs-content'}">
                     <div class="uk-width-1-3 first-tab">
                         <a href="">
                           <div class="triangle">
-                            <i class="uk-icon-check-circle icon-white uk-icon-large uk-margin-right"></i>
-                            <span class="uk-margin-right uk-text-bold uk-text-large">1</span>Select route
+                            <i class="uk-icon-check-circle icon-red uk-icon-large uk-margin-right"></i>
+                            <span class="uk-margin-right uk-text-bold uk-text-large text-red">1</span>Select route
                           </div>
                         </a>
                     </div>
                     <div class="uk-width-1-3 second-tab">
                         <a href="">
                           <div class="triangle">
-                            <i class="uk-icon-check-circle icon-white uk-icon-large uk-margin-right"></i>
-                            <span class="uk-margin-right uk-text-bold uk-text-large">2</span>Select the type of vehicle
+                            <i class="uk-icon-check-circle icon-red uk-icon-large uk-margin-right"></i>
+                            <span class="uk-margin-right uk-text-bold uk-text-large text-white">2</span>
+                            <span class="uk-margin-right uk-text-bold uk-text-large text-red">2</span>
+                            Select the type of vehicle
                           </div>
                         </a>
                     </div>
                     <div class="uk-width-1-3 third-tab">
                         <a href="">
                           <div class="triangle">
-                            <i class="uk-icon-check-circle icon-white uk-icon-large uk-margin-right"></i>
-                            <span class="uk-margin-right uk-text-bold uk-text-large">3</span>Contacts
+                            <span class="uk-margin-right uk-text-bold uk-text-large text-white">3</span>
+                            <span class="uk-margin-right uk-text-bold uk-text-large text-red">3</span>Contacts
                           </div>
                         </a>
                     </div>
@@ -163,10 +157,10 @@
 
                 <div class="uk-width-medium-1-1 ride-block-main">
                   <div class="uk-grid  uk-grid-small">
-                    <div class="uk-width-medium-1-2 uk-width-small-1-1  uk-margin-top">
-                      <div class="uk-panel uk-margin-small-top">
+                    <div class="uk-width-medium-1-2 uk-width-small-1-1">
+                      <div class="uk-panel">
                         <ul id="tabs-content" class="uk-switcher">
-                          <li class="first-tab-content">
+                          <li class="first-tab-content uk-margin-top">
                             <form class="uk-form">
                               <div class="uk-grid">
                                 <label for="from" class="uk-width-medium-1-3 uk-margin-small-top uk-text-bold uk-text-large text-red"><i class="ico-sprite ico-punct-a uk-margin-small-right"></i>From:</label>
@@ -176,36 +170,31 @@
                               </div>
                             </form>
                             <a class="uk-text-center uk-text-middle uk-text-bold uk-width-medium-1-1 uk-button uk-margin" href=""><i class="uk-icon-map-marker icon-red uk-icon-medium uk-margin-small-right"></i> Another destination</a>
-
                             <hr class="bg-red">
-
                             <div class="time-choice">
                               <form class="uk-form">
                                 <div class="pickup-top uk-grid">
                                   <div class="uk-width-medium-1-3 uk-margin-small-top uk-text-bold uk-text-large text-red">Pickup:</div>
                                   <div class="uk-width-medium-2-3">
-                                          <input class="uk-form-width-small uk-text-center" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="mm/dd/yy">
-                                          <input class="uk-form-width-mini uk-width-1-6" type="text" placeholder="11"data-uk-timepicker >
-                                          <input class="uk-form-width-mini uk-width-1-6" type="text" placeholder="00"data-uk-timepicker >
-
-                                          <div class="uk-margin-small-top">
-                                            <label class="uk-width-medium-1-1"><input type="checkbox">&nbsp; Make this a return trip</label>
-                                          </div>
+                                    <input class="uk-form-width-small uk-text-center" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="mm/dd/yy">
+                                    <input class="uk-form-width-mini uk-width-1-6" type="text" placeholder="11"data-uk-timepicker >
+                                    <input class="uk-form-width-mini uk-width-1-6" type="text" placeholder="00"data-uk-timepicker >
+                                    <div class="uk-margin-small-top">
+                                      <label class="uk-width-medium-1-1"><input type="checkbox">&nbsp; Make this a return trip</label>
+                                    </div>
                                   </div>
                                 </div>
-
                                 <div class="pickup-bottom uk-grid uk-margin-small-top">
                                   <div class="uk-width-medium-1-3 uk-text-bold uk-text-large text-red"><label for="return">Return:</label></div>
-
                                   <div class="uk-width-medium-2-3">
-                                      <input id="pickup" class="uk-form-width-small uk-text-center" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="mm/dd/yy">
-                                      <input class="uk-text-center uk-form-width-mini" type="text" placeholder="11" data-uk-timepicker>
-                                      <input class="uk-text-center uk-form-width-mini" type="text" placeholder="00" data-uk-timepicker>
+                                    <input id="pickup" class="uk-form-width-small uk-text-center" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="mm/dd/yy">
+                                    <input class="uk-text-center uk-form-width-mini" type="text" placeholder="11" data-uk-timepicker>
+                                    <input class="uk-text-center uk-form-width-mini" type="text" placeholder="00" data-uk-timepicker>
                                   </div>
                                 </div><!-- end pickup-bottom -->
                                 <div class="uk-width-1-1 uk-margin-top">
                                   <div class="">
-                                    <button id="button" type="button" class="uk-width-1-1 uk-button-danger uk-button-large  uk-margin-bottom uk-text-large bg-red no-border">Next <i class="uk-icon-chevron-right uk-icon-mini"></i></button>
+                                    <button id="next-1" type="button" class="uk-width-1-1 uk-button-danger uk-button-large  uk-margin-bottom uk-text-large bg-red no-border">Next <i class="uk-icon-chevron-right uk-icon-mini"></i></button>
                                     <button type="button" class="uk-width-1-1 uk-button-primary uk-button-large uk-margin-small uk-text-large bg-blue no-border">Find a driver</button>
                                   </div>
                                 </div>
@@ -214,12 +203,156 @@
                           </li><!-- first-tab-content -->
 
                           <li class="second-tab-content">
-                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, veniam, eveniet deserunt eum amet dolorem laudantium eligendi nulla asperiores repudiandae blanditiis. Neque ea mollitia minima ut commodi ipsa doloremque iste.</div>
-                          </li>
+                            <p class="text-red uk-text-bold uk-text-large uk-margin-remove">Vehicle</p>
+                            <hr class="bg-red uk-margin-small-top uk-margin-bottom">
+                            <form class="uk-form">
+                              <p class="uk-text-bold text-red">Passengers</p>
+                              <div class="uk-grid uk-margin-top">
+                                <div class="uk-width-medium-1-3">
+                                  <label class="">Adult
+                                    <select class="uk-margin-left">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                    </select>
+                                  </label>
+                                </div>
+                                <div class="uk-width-medium-1-3">
+                                  <label for="children" class="">Children
+                                    <select class="uk-margin-left">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                    </select>
+                                  </label>
+                                </div>
+                                <div class="uk-width-medium-1-3">
+                                  <label for="seniors" class="">Seniors
+                                    <select class="uk-margin-left">
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                      <option>4</option>
+                                    </select>
+                                  </label>
+                                </div>
+                              </div>
+                              <p class="uk-text-bold text-red">Class:</p>
+                              <select class="">
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                              </select>
+                              <div class="checkbox-block uk-margin-top">
+                                <p class="width-2-3 uk-form-controls-condensed">
+                                  <label for=""><input type="checkbox" name="" value="">
+                                    <i class="ico-sprite ico-pets uk-margin-small-right uk-margin-small-bottom uk-margin-left"></i><span class="uk-margin-small-left">Pet</span>
+                                  </label>
+                                </p>
+                                <p class="width-2-3 uk-form-controls-condensed">
+                                  <label for=""><input type="checkbox" name="" value="">
+                                    <i class="ico-sprite ico-seats uk-margin-small-right uk-margin-small-bottom uk-margin-left"></i><span>Child seat</span>
+                                  </label>
+                                </p>
+                                <p class="width-2-3 uk-form-controls-condensed">
+                                  <label for=""><input type="checkbox" name="" value="">
+                                    <i class="ico-sprite ico-non-smoking uk-margin-small-right uk-margin-small-bottom uk-margin-left"></i><span class="uk-margin-small-left">Non-smoking</span>
+                                  </label>
+                                </p>
+                                <p class="width-2-3 uk-form-controls-condensed">
+                                  <label for=""><input type="checkbox" name="" value="">
+                                    <i class="ico-sprite ico-smoking uk-margin-small-right uk-margin-small-bottom uk-margin-left"></i><span class="uk-margin-small-left">Smoking</span>
+                                  </label>
+                                </p>
+                                <p class="width-2-3 uk-form-controls-condensed">
+                                  <label for=""><input type="checkbox" name="" value="">
+                                    <i class="ico-sprite ico-bags uk-margin-small-right uk-margin-small-bottom uk-margin-left"></i><span class="uk-margin-small-left">Bags</span>
+                                  </label>
+                                </p>
+                              </div>
+                              <p class="uk-text-bold text-red">Other</p>
+                              <select class="">
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                                <option>Lorem ipsum dolor sit.</option>
+                              </select>
+                              <p class="uk-text-bold text-red">Special recuirement</p>
+                              <textarea class="uk-width-1-1" name="" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos inventore asperiores iusto voluptates quis fugit quidem unde impedit natus."></textarea>
+                              <span class="uk-text-small uk-text-muted">осталось 200 символов</span>
+                            </form>
+                            <ul class="uk-grid uk-grid-small uk-grid-margin uk-margin-top" data-uk-grid-margin>
+                              <li class="uk-width-1-2">
+                                <button id="back-2" type="button" class="uk-button-large uk-text-large bg-gray no-border uk-width-1-1 text-white"><i class="uk-icon-chevron-left uk-icon-mini uk-margin-right"></i> Back</button>
+                              </li>
+                              <li class="uk-width-1-2">
+                                <button id="next-2" type="button" class="uk-button-danger uk-button-large uk-text-large bg-red no-border uk-width-1-1">Next<i class="uk-icon-chevron-right uk-icon-mini uk-margin-left"></i></button>
+                              </li>
+                            </ul>
+                          </li><!-- second-tab-content -->
 
                           <li class="third-tab-content">
-                            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatibus atque, deserunt, praesentium sunt omnis eius tempore vero obcaecati culpa odit tenetur consectetur dignissimos! Perferendis sunt unde explicabo repellat assumenda!</div>
-                          </li>
+                            <p class="text-red uk-text-bold uk-text-large uk-margin-remove">Тариф</p>
+                            <hr class="bg-red uk-margin-small-top uk-margin-bottom">
+                            <form class="uk-form">
+                              <ul class="uk-grid uk-grid-small">
+                                <li class="uk-width-2-3">
+                                  <label><input type="checkbox">&nbsp; Рекомендуем цену</label>
+                                </li>
+                                <li class="uk-width-1-3"><span class="uk-margin-left">$100.00</span></li>
+                              </ul>
+                              <ul class="uk-grid uk-grid-small">
+                                <li class="uk-width-2-3">
+                                  <label><input type="checkbox">&nbsp; Ваша цена</label>
+                                </li>
+                                <li class="uk-width-1-3"><input class="uk-form-width-small" type="text" name="" value="" placeholder="$0.00"></li>
+                              </ul>
+                              <p class="text-red uk-text-bold uk-text-large uk-margin-remove">Контактная информация</p>
+                              <hr class="bg-red uk-margin-small-top uk-margin-bottom">
+                              <p>
+                                <label><input type="checkbox">&nbsp; I am not traveling. I am making this booking on another's behalf</label>
+                              </p>
+                              <ul class="uk-grid uk-grid-small">
+                                <li class="uk-width--10">
+                                  <label>Имя пассажира:</label>
+                                </li>
+                                <li class="uk-width-6-10"><input class="uk-width-1-1" type="text" name="" value="" placeholder="не указано"></li>
+                              </ul>
+                              <ul class="uk-grid uk-grid-small">
+                                <li class="uk-width--10">
+                                  <label>Телефон пассажира:</label>
+                                </li>
+                                <li class="uk-width-6-10"><input class="uk-width-1-1" type="text" name="" value="" placeholder="не указано"></li>
+                              </ul>
+                              <ul class="uk-grid uk-grid-small">
+                                <li class="uk-width--10">
+                                  <label>E-mail пассажира:</label>
+                                </li>
+                                <li class="uk-width-6-10"><input class="uk-width-1-1" type="text" name="" value="" placeholder="не указано"></li>
+                              </ul>
+                              <ul class="uk-grid uk-grid-small">
+                                <li class="uk-width--10">
+                                  <label>Skype пассажира:</label>
+                                </li>
+                                <li class="uk-width-6-10"><input class="uk-width-1-1" type="text" name="" value="" placeholder="не указано"></li>
+                              </ul>
+                            </form>
+                            <ul class="uk-grid uk-grid-small uk-grid-margin uk-margin-top" data-uk-grid-margin>
+                              <li class="uk-width-1-2">
+                                <button id="back-3" type="button" class="uk-button-large uk-text-large bg-gray no-border uk-width-1-1 text-white"><i class="uk-icon-chevron-left uk-icon-mini uk-margin-right"></i> Back</button>
+                              </li>
+                              <li class="uk-width-1-2">
+                                <button id="submit" type="button" class="uk-button-danger uk-button-large uk-text-large bg-red no-border uk-width-1-1">Submit<i class="uk-icon-chevron-right uk-icon-mini uk-margin-left"></i></button>
+                              </li>
+                            </ul>
+                          </li><!-- third tab-content -->
                         </ul>
                       </div>
                     </div>
@@ -248,368 +381,351 @@
                 </div><!-- end ride-block-main --></div>
               </div>
             </div>
-
-          </div><!-- end ride-block -->
-
-          <div class="table-price uk-margin-top">
-            <div class="uk-grid">
-              <div class="uk-width-large-1-1">
-                <table class="tg uk-table uk-table-hover">
-                  <thead>
-                    <tr>
-                      <th class="tg-srf5">Tip</th>
-                      <th class="tg-srf5">Date/time</th>
-                      <th class="tg-srf5">Route</th>
-                      <th class="tg-srf5">Trust</th>
-                      <th class="tg-srf5">PM</th>
-                      <th class="tg-srf5">Price</th>
-                      <th class="tg-srf5">Status</th>
-                      <th class="tg-srf5">Buy</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="uk-table-middle table-select">
-                      <td class="tg-dntg">
-                        <i class="uk-icon-taxi icon-blue uk-icon-semimedium"></i>
-                        <i class="uk-icon-caret-down"></i>
-                      </td>
-                      <td class="tg-dntg">
-                        <input class="uk-form-width-small datepicker-select" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="02/12/14-03/01/14">
-                      </td>
-                      <td class="tg-dntg"><input class="uk-form-width-medium route-select" type="" placeholder="for example, Moscow, Russia"></td>
-                      <td class="tg-dntg">
-                        <div class="uk-button-group">
-                          <div data-uk-dropdown="{mode:'click'}">
-                            <button class="uk-button">...<i class="uk-icon-caret-down"></i></button>
-                            <div class="uk-dropdown uk-dropdown-small">
-                              <ul class="uk-nav uk-nav-dropdown">
-                                <li><a href="#">...</a></li>
-                                <li><a href="#">...</a></li>
-                                <li><a href="#">...</a></li>
-                                <li><a href="#">...</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="tg-dntg">
-                        <i class="uk-icon-arrow-up uk-icon-mini pointer"></i>
-                        <i class="uk-icon-arrow-down uk-icon-mini icon-blue pointer"></i>
-                      </td>
-                      <td class="tg-dntg">
-                        <i class="uk-icon-arrow-up uk-icon-mini pointer"></i>
-                        <i class="uk-icon-arrow-down uk-icon-mini icon-blue pointer"></i>
-                        <div class="uk-button-group">
-                          <div data-uk-dropdown="{mode:'click'}">
-                            <button class="uk-button">$10 - $20<i class="uk-icon-caret-down uk-margin-small-left"></i></button>
-                            <div class="uk-dropdown uk-dropdown-small">
-                              <ul class="uk-nav uk-nav-dropdown">
-                                <li><a href="#">$20 - $30</a></li>
-                                <li><a href="#">$30 - $40</a></li>
-                                <li><a href="#">$40 - $50</a></li>
-                                <li><a href="#">$50 - $60</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="tg-dntg">
-                        <div class="uk-button-group">
-                          <div data-uk-dropdown="{mode:'click'}">
-                            <button class="uk-button">All<i class="uk-icon-caret-down uk-margin-small-left"></i></button>
-                            <div class="uk-dropdown uk-dropdown-small">
-                              <ul class="uk-nav uk-nav-dropdown">
-                                <li><a href="#">open</a></li>
-                                <li><a href="#">pending</a></li>
-                                <li><a href="#">close</a></li>
-                                <li><a href="#">cancel</a></li>
-                                <li><a href="#">all happy</a></li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </td>
-                      <td class="tg-dntg">
-                        <div class="uk-button-group">
-                          <div data-uk-dropdown="{mode:'click'}">
-                            <button class="uk-button">Other<i class="uk-icon-caret-down uk-margin-small-left"></i></a></button>
-                            <div class="uk-dropdown uk-dropdown-small">
-                              <ul class="uk-nav uk-nav-dropdown">
-                                <li><a href="#">Other</a></li>
-                                <li><a href="#">Other</a></li>
-                                <li><a href="#">Other</a></li
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                        <a href="#"><i class="uk-icon-times-circle uk-icon-semimedium icon-red"></i></a>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg"><span>1</span></td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-7v46">escro</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">open</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg number-circle">
-                        <span>2</span>
-                      </td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg">
-                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                      </td>
-                      <td class="tg-lltv">cash</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">pending</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg"><span>3</span></td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg">
-                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                        <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
-                      </td>
-                      <td class="tg-7v46">escro</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">open</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg number-circle">
-                        <span>4</span>
-                      </td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-lltv">cash</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">pending</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg"><span>5</span></td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-7v46">escro</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">open</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg number-circle">
-                        <span>6</span>
-                      </td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-lltv">cash</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">pending</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg"><span>7</span></td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-7v46">escro</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">open</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg number-circle">
-                        <span>8</span>
-                      </td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-lltv">cash</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">pending</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg"><span>9</span></td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-7v46">escro</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">open</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg number-circle">
-                        <span>10</span>
-                      </td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-lltv">cash</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">pending</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class="uk-table-middle">
-                      <td class="tg-dntg number-circle">
-                        <span>11</span>
-                      </td>
-                      <td class="tg-dntg">02 MAR 14 18:45</td>
-                      <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
-                      <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
-                      <td class="tg-lltv">cash</td>
-                      <td class="tg-dntg">$783.85</td>
-                      <td class="tg-dntg">pending</td>
-                      <td class="tg-dntg">
-                        <div class="uk-button uk-button-success">
-                          <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
           </div>
-        </div><!-- end wrap -->
-      </div><!-- end uk-container -->
-
-    <footer>
-      <div class="uk-container uk-container-center uk-margin-top">
-        <div class="footer-bg">
+        </div><!-- end ride-block -->
+        <div class="table-price uk-margin-top">
           <div class="uk-grid">
-          <div class="uk-width-large-6-10 uk-width-medium-5-10 uk-width-small-1-3 uk-push-1-10">
-            <nav class="uk-navbar">
-              <ul class="uk-navbar-nav uk-hidden-small">
-                <li class="uk-active">
-                  <a href="layouts_frontpage.html">Info</a>
-                </li>
-                <li>
-                  <a href="layouts_portfolio.html">Locator</a>
-                </li>
-                <li>
-                  <a href="layouts_blog.html">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="layouts_blog.html">News</a>
-                </li>
-              </ul>
-              <a href="#offcanvas-footer" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-            </nav>
-          </div>
-          <div class="uk-width-large-2-10 uk-width-medium-3-10 uk-width-small-2-5 uk-push-1-10 uk-margin-large-left">
-            <div class="footer-social">
-              <a href="#"><i class="uk-icon-twitter-square uk-icon-large"></i></a>
-              <a href="#"><i class="uk-icon-facebook-square uk-icon-large"></i></a>
-              <a href="#"><i class="uk-icon-google-plus-square uk-icon-large"></i></a>
-              <a href="#"><i class="uk-icon-linkedin-square uk-icon-large"></i></a>
+            <div class="uk-width-large-1-1">
+              <table class="tg uk-table uk-table-hover">
+                <thead>
+                  <tr>
+                    <th class="tg-srf5">Tip</th>
+                    <th class="tg-srf5">Date/time</th>
+                    <th class="tg-srf5">Route</th>
+                    <th class="tg-srf5">Trust</th>
+                    <th class="tg-srf5">PM</th>
+                    <th class="tg-srf5">Price</th>
+                    <th class="tg-srf5">Status</th>
+                    <th class="tg-srf5">Buy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="uk-table-middle table-select">
+                    <td class="tg-dntg">
+                      <i class="uk-icon-taxi icon-blue uk-icon-semimedium"></i>
+                      <i class="uk-icon-caret-down"></i>
+                    </td>
+                    <td class="tg-dntg">
+                      <div class="uk-form">
+                        <input class="uk-form-width-small datepicker-select" type="" data-uk-datepicker="{format:'MM.DD.YYYY'}" placeholder="02/12/14-03/01/14">
+                      </div>
+                    </td>
+                    <td class="tg-dntg">
+                      <div class="uk-form">
+                        <input class="uk-form-width-medium route-select" type="" placeholder="for example, Moscow, Russia">
+                      </div>
+                    </td>
+                    <td class="tg-dntg">
+                      <div class="uk-form">
+                        <select class="">
+                          <option>Option 1</option>
+                          <option>Option 2</option>
+                          <option>Option 3</option>
+                          <option>Option 4</option>
+                        </select>
+                      </div>
+                    </td>
+                    <td class="tg-dntg">
+                      <i class="uk-icon-arrow-up uk-icon-mini pointer"></i>
+                      <i class="uk-icon-arrow-down uk-icon-mini icon-blue pointer"></i>
+                    </td>
+                    <td class="tg-dntg">
+                      <div class="uk-form">
+                        <i class="uk-icon-arrow-up uk-icon-mini pointer"></i>
+                        <i class="uk-icon-arrow-down uk-icon-mini icon-blue pointer"></i>
+                        <select class="">
+                          <option>$20 - $30</option>
+                          <option>$30 - $40</option>
+                          <option>$40 - $50</option>
+                          <option>$50 - $60</option>
+                        </select>
+                      </div>
+                    </td>
+                    <td class="tg-dntg">
+                      <div class="uk-form">
+                        <select class="">
+                          <option>All</option>
+                          <option>open</option>
+                          <option>pending</option>
+                          <option>close</option>
+                          <option>cancel</option>
+                          <option>all happy</option>
+                        </select>
+                      </div>
+                    </td>
+                    <td class="tg-dntg">
+                      <div class="uk-form">
+                        <select class="">
+                          <option>Other</option>
+                          <option>Option 2</option>
+                          <option>Option 3</option>
+                          <option>Option 4</option>
+                        </select>
+                        <a href="#"><i class="uk-icon-times-circle uk-icon-semimedium icon-red"></i></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg"><span>1</span></td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-7v46">escro</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">open</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg number-circle">
+                      <span>2</span>
+                    </td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg">
+                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                    </td>
+                    <td class="tg-lltv">cash</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">pending</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg"><span>3</span></td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg">
+                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                      <i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i>
+                    </td>
+                    <td class="tg-7v46">escro</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">open</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg number-circle">
+                      <span>4</span>
+                    </td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-lltv">cash</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">pending</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg"><span>5</span></td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-7v46">escro</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">open</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg number-circle">
+                      <span>6</span>
+                    </td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-o-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-lltv">cash</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">pending</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg"><span>7</span></td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-7v46">escro</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">open</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg number-circle">
+                      <span>8</span>
+                    </td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-lltv">cash</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">pending</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg"><span>9</span></td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-7v46">escro</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">open</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:10:48</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg number-circle">
+                      <span>10</span>
+                    </td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-lltv">cash</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">pending</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="uk-table-middle">
+                    <td class="tg-dntg number-circle">
+                      <span>11</span>
+                    </td>
+                    <td class="tg-dntg">02 MAR 14 18:45</td>
+                    <td class="tg-dntg">USA: Даллас -</br> USA: Оклахома-сити</td>
+                    <td class="tg-dntg"><i class="uk-icon-thumbs-up uk-icon-semimedium icon-blue"></i></td>
+                    <td class="tg-lltv">cash</td>
+                    <td class="tg-dntg">$783.85</td>
+                    <td class="tg-dntg">pending</td>
+                    <td class="tg-dntg">
+                      <div class="uk-button uk-button-success">
+                        <i class="uk-icon-shopping-cart uk-icon-semimedium uk-margin-small-right"></i><time>0:47:11</time>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
+        </div>
+      </div><!-- end wrap -->
+    </div><!-- end uk-container -->
+  <footer>
+    <div class="uk-container uk-container-center uk-margin-top">
+      <div class="footer-bg">
+        <div class="uk-grid">
+        <div class="uk-width-large-6-10 uk-width-medium-5-10 uk-width-small-1-3 uk-push-1-10">
+          <nav class="uk-navbar">
+            <ul class="uk-navbar-nav uk-hidden-small">
+              <li class="uk-active">
+                <a href="layouts_frontpage.html">Info</a>
+              </li>
+              <li>
+                <a href="layouts_portfolio.html">Locator</a>
+              </li>
+              <li>
+                <a href="layouts_blog.html">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="layouts_blog.html">News</a>
+              </li>
+            </ul>
+            <a href="#offcanvas-footer" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+          </nav>
+        </div>
+        <div class="uk-width-large-2-10 uk-width-medium-3-10 uk-width-small-2-5 uk-push-1-10 uk-margin-large-left">
+          <div class="footer-social">
+            <a href="#"><i class="uk-icon-twitter-square uk-icon-large"></i></a>
+            <a href="#"><i class="uk-icon-facebook-square uk-icon-large"></i></a>
+            <a href="#"><i class="uk-icon-google-plus-square uk-icon-large"></i></a>
+            <a href="#"><i class="uk-icon-linkedin-square uk-icon-large"></i></a>
           </div>
         </div>
-        <div class="footer-copyright uk-container uk-container-center uk-margin">
-          <div class=" uk-text-center uk-text-middle">
-            <span>&copy; &nbsp; 2014 TaxiMyPrice</span>
-          </div>
         </div>
-      </div><!-- end uk-container -->
-    </footer>
-
-    <div id="offcanvas-header" class="uk-offcanvas">
-      <div class="uk-offcanvas-bar">
-          <ul class="uk-nav uk-nav-offcanvas">
-              <li class="uk-active">
-                  <a href="layouts_frontpage.html">About</a>
-              </li>
-              <li>
-                  <a href="layouts_portfolio.html">Help</a>
-              </li>
-              <li>
-                  <a href="layouts_blog.html">Profit</a>
-              </li>
-              <li>
-                  <a href="layouts_documentation.html">Lorem ipsum.</a>
-              </li>
-              <li>
-                  <a href="layouts_contact.html">Lorem ipsum.</a>
-              </li>
-              <li>
-                  <a href="layouts_login.html">Lorem ipsum.</a>
-              </li>
-          </ul>
       </div>
-    </div>
-
-    <div id="offcanvas-footer" class="uk-offcanvas">
-      <div class="uk-offcanvas-bar">
-          <ul class="uk-nav uk-nav-offcanvas">
-              <li class="uk-active">
-                  <a href="layouts_frontpage.html">Info</a>
-              </li>
-              <li>
-                  <a href="layouts_portfolio.html">Locator</a>
-              </li>
-              <li>
-                  <a href="layouts_blog.html">Privacy Policy</a>
-              </li>
-              <li>
-                  <a href="layouts_documentation.html">News</a>
-              </li>
-          </ul>
+      <div class="footer-copyright uk-container uk-container-center uk-margin">
+        <div class=" uk-text-center uk-text-middle">
+          <span>&copy; &nbsp; 2014 TaxiMyPrice</span>
+        </div>
       </div>
+    </div><!-- end uk-container -->
+  </footer>
+  <div id="offcanvas-header" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-offcanvas">
+            <li class="uk-active">
+                <a href="layouts_frontpage.html">About</a>
+            </li>
+            <li>
+                <a href="layouts_portfolio.html">Help</a>
+            </li>
+            <li>
+                <a href="layouts_blog.html">Profit</a>
+            </li>
+            <li>
+                <a href="layouts_documentation.html">Lorem ipsum.</a>
+            </li>
+            <li>
+                <a href="layouts_contact.html">Lorem ipsum.</a>
+            </li>
+            <li>
+                <a href="layouts_login.html">Lorem ipsum.</a>
+            </li>
+        </ul>
     </div>
-
-    </body>
+  </div>
+  <div id="offcanvas-footer" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-offcanvas">
+            <li class="uk-active">
+                <a href="layouts_frontpage.html">Info</a>
+            </li>
+            <li>
+                <a href="layouts_portfolio.html">Locator</a>
+            </li>
+            <li>
+                <a href="layouts_blog.html">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="layouts_documentation.html">News</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+  </body>
 </html>
