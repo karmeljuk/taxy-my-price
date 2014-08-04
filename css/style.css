@@ -7,6 +7,38 @@ body {
   background: #fff url(../img/page-bg.png);
 }
 
+@media screen and (max-width: 526px) {
+  body *{
+    font-size: 6px !important;
+    padding: 0;
+  }
+
+  body ul.uk-breadcrumb li{
+    line-height: 3px;
+  }
+
+  .uk-breadcrumb>li:nth-child(n+2):before {
+    margin: 0;
+  }
+
+  .uk-navbar-toggle {
+    font-size: 12px !important;
+    height: 20px;
+  }
+
+  header div.uk-navbar-small {
+    zoom: 0.5;
+  }
+
+  i.ico-sprite, .footer-copyright {
+    display: none;
+  }
+
+  .uk-form input {
+    width: 100%;
+  }
+}
+
 div.uk-container {
   padding: 0 100px;
 }
@@ -117,7 +149,7 @@ header {
 
 header .uk-navbar{
   background: #fff url(../img/header-bg.png) 0 0 no-repeat;
-  height: 47px;
+  /*height: 47px;*/
   border: none;
   border-radius: 0;
 }
@@ -232,22 +264,7 @@ header .uk-form select, header .uk-form select:focus {
   height: 18px;
   padding: 0;
  -moz-appearance: radio-container;
- -webkit-appearance: radio-container;
 }
-/*
-header .uk-form select:after, header .uk-form select:focus:after {
-  content: "▼";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  font-size: 60%;
-  line-height: 30px;
-  padding: 0 7px;
-  background: #000;
-  color: white;
-  pointer-events:none;
-}*/
 
 /* ========================================================================
     Main
@@ -483,9 +500,9 @@ hr.bg-red {
 
 .ride-block-map .map-frame {
   position: relative;
-padding-bottom: 75%; // This is the aspect ratio
-height: 0;
-overflow: hidden;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
 }
 
 .ride-block-map .map-frame iframe {
