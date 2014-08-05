@@ -236,6 +236,17 @@ header .uk-navbar-nav .store a {
   padding: 0 29px 0 36px;
 }
 
+
+@media screen and (max-width: 800px) {
+  header .uk-navbar-nav .book a, header .uk-navbar-nav .store a {
+    padding: 0 20px;
+  }
+
+  header .ico-fist {
+    display: none;
+  }
+}
+
 header .uk-navbar-nav .user-menu{
   float: right;
 }
@@ -246,7 +257,7 @@ header .uk-navbar-nav .user-menu a {
   cursor: pointer;
 }
 
-.header-bottom{
+header .header-bottom{
   background: #898E97;
 }
 
